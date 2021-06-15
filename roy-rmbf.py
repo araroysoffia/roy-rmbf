@@ -823,7 +823,7 @@ class __crack__:
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
                             		xz[0]+'123', xz[0]+'12345',
-					xz[0], xz'sayang',
+					xz[0], 'sayang',
 			    	]
                         else:
                         	raimuuu = [

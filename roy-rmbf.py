@@ -536,14 +536,14 @@ def cek_ingfo():
 # cek info sc
 def info_tools():
     os.system('clear')
-    print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    print '\n %s[%s>%s] Author   : Roy Octa Firdaus'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Github   : Private'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Facebook : https://www.facebook.com/jbfbold'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Instagram: https://www.instagram.com/'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Website  : https://www.royjbfbold.my.id'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s>%s] Fanspage : https://www.facebook.com/infoappdangame'%(N,H,N);time.sleep(0.07)
-    print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
+    print ' %s[%s#%s]'%(N,O,N), 45 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
+    print '\n %s[%s✓%s] Author	: Roy Octa Firdaus'%(N,H,N);time.sleep(0.07)
+    print '%s[%s✓%s] Github	: Private'%(N,H,N);time.sleep(0.07)
+    print '%s[%s✓%s] Whatsapp	: +6281318306972'%(N,H,N);time.sleep(0.07)
+    print '%s[%s✓%s] Facebook	: facebook.com/jbfbold'%(N,H,N);time.sleep(0.07)
+    print '%s[%s✓%s] Website	: www.royjbfbold.my.id'%(N,H,N);time.sleep(0.07)
+    print '%s[%s✓%s] FP		: facebook.com/infoappdangame'%(N,H,N);time.sleep(0.07)
+    print '\n %s[%s#%s]'%(N,O,N), 45 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
     raw_input(' [%s KEMBALI%s ] '%(O,N))
     moch_yayan()
 # mulai ngecrot awokawokawokkawok

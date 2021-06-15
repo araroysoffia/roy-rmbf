@@ -149,9 +149,9 @@ def moch_yayan():
         exit()
     os.system('clear')
     print logo
-    print ' [%s*%s] Author   : Roy Octa Firdaus'%(H,N)
-    print ' [%s*%s] Facebook : facebook.com/jbfbold'%(H,N)
-    print ' [%s*%s] Whatsapp : 081318306972'%(H,N)
+    print ' [%s*%s] Author   : Roy Octa Firdaus'%(H,N,K)
+    print ' [%s*%s] Facebook : facebook.com/jbfbold'%(H,N,K)
+    print ' [%s*%s] Whatsapp : 081318306972'%(H,K)
     print ' %s[%s*%s]'%(N,O,N), 30 * '\x1b[1;96m-\x1b[0m'
     print ' %s[%s*%s] Nama FB : %s%s%s'%(N,O,N,K,nama,N)
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,O,N,K,idfb,N)

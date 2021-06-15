@@ -824,11 +824,11 @@ class __crack__:
                             	raimuuu = [
                             		xz[0]+'123', xz[0]+'12345',
 					xz[0], 'sayang',
-					'123456'
+					'bismillah', 'rahasia'
 			    	]
                         else:
                         	raimuuu = [
-                        		'indonesia'
+                        		'123456'
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:

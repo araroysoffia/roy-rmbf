@@ -77,11 +77,11 @@ def tod():
         time.sleep(1)
 IP = requests.get('https://api.ipify.org').text
 # LOGO
-logo = '''%s╦═╗╔═╗╦ ╦   ╦═╗╔╦╗╔╗ ╔═╗
-╠╦╝║ ║╚╦╝───╠╦╝║║║╠╩╗╠╣ 
-╩╚═╚═╝ ╩    ╩╚═╩ ╩╚═╝╚  %s
-%s %s**********************************%s
- [ \x1b[47;30;1m ROY MULTI BRUTE FACEBOOK%s ]'''%(O,M,N,H,N,N)
+logo = '''%s ╦═╗╔═╗╦ ╦   ╦═╗╔╦╗╔╗ ╔═╗
+ ╠╦╝║ ║╚╦╝───╠╦╝║║║╠╩╗╠╣ 
+ ╩╚═╚═╝ ╩    ╩╚═╩ ╩╚═╝╚  %s
+%s %s----------------------------------%s
+ [ \x1b[47;30;1m ROY MULTI BRUTE FACEBOOK%s ]'''%(H,M,N,O,N,N)
 # crack selesai
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:

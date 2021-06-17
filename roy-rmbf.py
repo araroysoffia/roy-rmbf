@@ -832,13 +832,13 @@ class __crack__:
                     except:
                         pass
 
-            print '\n\n %s[%sâœ“%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
         elif yan in ('2', '02'):
-            print '\n [+] Hasil OK disimpan ke ðŸ‘‰ results/OK-%s-%s-%s.txt' % (ha, op, ta)
-            print ' [+] Hasil CP disimpan ke ðŸ‘‰ results/CP-%s-%s-%s.txt' % (ha, op, ta)
+            print '\n [+] Hasil OK disimpan ke : results/OK-%s-%s-%s.txt' % (ha, op, ta)
+            print ' [+] Hasil CP disimpan ke : results/CP-%s-%s-%s.txt' % (ha, op, ta)
             print '\n [!] Anda bisa mematikan data selular untuk menjeda proses crack\n'
             with YayanGanteng(max_workers=30) as (_yayanXD_):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -876,13 +876,13 @@ class __crack__:
                     except:
                         pass
 
-            print '\n\n %s[%sâœ“%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
         elif yan in ('3', '03'):
-            print '\n [+] Hasil OK disimpan ke ðŸ‘‰ results/OK-%s-%s-%s.txt' % (ha, op, ta)
-            print ' [+] Hasil CP disimpan ke ðŸ‘‰ results/CP-%s-%s-%s.txt' % (ha, op, ta)
+            print '\n [+] Hasil OK disimpan ke : results/OK-%s-%s-%s.txt' % (ha, op, ta)
+            print ' [+] Hasil CP disimpan ke : results/CP-%s-%s-%s.txt' % (ha, op, ta)
             print '\n [!] Anda bisa mematikan data selular untuk menjeda proses crack\n'
             with YayanGanteng(max_workers=30) as (_yayanXD_):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia

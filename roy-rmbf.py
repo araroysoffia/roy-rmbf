@@ -811,15 +811,32 @@ class __crack__:
                     try:
                         bb = yntks.split('<=>')
                         xz = bb[1].split(' ')
-                        if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
+                        if len(xz) == 1:
                             	raimuuu = [
-                            		xz[0]+'123', xz[0]+'12345',
-					xz[0], 'sayang',
-					'bismillah',
-			    	]
+                            	xz[0]+'123', xz[0]+'1235', 'sayang',
+                            ]
+                        elif len(xz) == 2:
+                        	raimuuu = [
+                        		xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1]+'123', xz[1]+'12345', 
+                        	]
+                        elif len(xz) == 3:
+                        	raimuuu = [
+                        		xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'123', xz[2]+'12345',
+                        	]
+                        elif len(xz) == 4:
+                        	raimuuu = [
+                        		xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'123', xz[2]+'12345',
+                        		xz[3]+'123', xz[3]+'12345',
+                        	]
                         else:
                         	raimuuu = [
-                        		'123456', 'rahasia'
+                        		'bismillah', '123456'
+					'anjing'
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:

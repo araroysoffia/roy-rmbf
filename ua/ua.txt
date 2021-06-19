@@ -1,1 +1,1 @@
-Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 UCBrowser/11.5.0.1015 UCTurbo/1.10.3.900 Mobile Safari/537.36 Edge/18.18362 OPR/51.1.2461.137501

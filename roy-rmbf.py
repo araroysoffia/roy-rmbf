@@ -588,7 +588,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID selesai...'%(N,K,N)
+                            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -604,7 +604,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID selesai...'%(N,K,N)
+                            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -620,7 +620,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID selesai...'%(N,K,N)
+                            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -649,7 +649,7 @@ class __crack__:
 
     def __api__(self, user, _yan_):
     	global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack by ROY-ID: %s/%s OK:%s - CP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK:%s - CP:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -711,7 +711,7 @@ class __crack__:
         
     def __mbasic__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack by ROY-ID: %s/%s OK-:%s | CP-:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK-:%s | CP-:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -772,7 +772,7 @@ class __crack__:
         
     def __mfb__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack by ROY-ID: %s/%s OK:%s | CP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK:%s | CP:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -868,7 +868,7 @@ class __crack__:
                     except:
                         pass
 
-            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
@@ -912,7 +912,7 @@ class __crack__:
                     except:
                         pass
 
-            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
@@ -939,7 +939,7 @@ class __crack__:
                     except:
                         pass
 
-            print '\n\n %s[%s✓%s] Proses Crack by ROY-ID Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()

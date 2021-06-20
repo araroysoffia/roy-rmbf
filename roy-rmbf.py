@@ -852,13 +852,13 @@ class __crack__:
 					xz[0],
                             		xz[0]+'123',
 					xz[0]+'1235',
-					xz[0]+'12356',
 					'sayang',
 					'bismillah',
 					'anjing',
 					'cantik',
-					'qwerty',
-					'000000'
+					'bangsat',
+					'kontol',
+					'rahasia'
                             		]
                         else:
                         	raimuuu = [

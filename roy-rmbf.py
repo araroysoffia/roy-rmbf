@@ -794,7 +794,6 @@ class __crack__:
                         bb = yntks.split('<=>')
                         xz = bb[1].split(' ')
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
-				if len(xz[0]) <= 5:
                             	raimuuu = [
 					xz[0],
                             		xz[0]+'123',

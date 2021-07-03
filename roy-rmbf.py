@@ -158,7 +158,7 @@ def moch_yayan():
     print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)
     print ' %s=================================================='%(N)
     print ' %s=================================================='%(N)
-    print ' [%s?%s] MENU PILIHAN'%(K,O)
+    print ' [%s?%s] %MENU PILIHAN'%(K,N,O)
     print ' [%s1%s] Crack dari Daftar Teman'%(H,N)
     print ' [%s2%s] Crack dari Teman Publik'%(H,N)
     print ' [%s3%s] Crack dari Total Followers'%(H,N)
@@ -170,7 +170,7 @@ def moch_yayan():
     print ' %s[%s0%s] Logout (%sHapus Token%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
-        yan = raw_input('\n [*] Pilih Menu : ')
+        yan = raw_input('\n [%s?%s] Pilih Menu : '%(K,N))
         if yan == '':
            print '\n %s[%s!%s] Pilihan menu [%s%s%s] tidak ada, cek kembali menu pilihan Anda!'%(N,M,N,M,yan,N);time.sleep(1);os.system('clear');moch_yayan()
         elif yan =='1':
@@ -572,16 +572,16 @@ class __crack__:
 
         ___yayanganteng___ = raw_input(' [%s?%s] Apakah ingin menggunakan kata sandi manual? [Y/T]: '%(K,N))
         if ___yayanganteng___ in ('Y', 'y'):
-            print '\n [*] Contoh: %s[ %ssayang,sayang123,roy123%s ]'%(N,H,N)
+            print '\n [%s?%s] Contoh: [ %ssayang,sayang123,roy123%s ]'%(K,N,H,N)
             while True:
                 pwek = raw_input('\n [%s?%s] Sandi Manual : '%(K,N))
-                print ' [*] Crack dengan Sandi Manual : [ %s%s%s ]' % (M, pwek, N)
+                print ' [%s?%s] Crack dengan Sandi Manual : [ %s%s%s ]' % (K,N,M, pwek, N)
                 if pwek == '':
                     self.slurr()
                 else:
                 	
                     def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
-                        cin = raw_input('\n [*] Pilihan Method Anda : ')
+                        cin = raw_input('\n [%s?%s] Pilihan Method Anda : '%(K,N))
                         if cin == '':
                             self.__yan__()
                         elif cin == '1':
@@ -789,7 +789,7 @@ class __crack__:
         loop += 1
         
     def __pler__(self):
-        yan = raw_input('\n [*] Pilihan Method Anda : ')
+        yan = raw_input('\n [%s?%s] Pilihan Method Anda : '%(K,N))
         if yan == '':
             self.__pler__()
         elif yan in ('1', '01'):
@@ -811,7 +811,7 @@ class __crack__:
                         		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         		xz[2], xz[2]+'123', xz[2]+'12345',
-					'sayang', 'bismillah',
+					'sayang',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -848,7 +848,7 @@ class __crack__:
                         		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         		xz[2], xz[2]+'123', xz[2]+'12345',
-					'sayang', 'bismillah',
+					'sayang',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -879,14 +879,13 @@ class __crack__:
                             	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
-					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         		xz[2], xz[2]+'123', xz[2]+'12345',
-					'sayang', 'bismillah',
+					'sayang',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [

@@ -158,7 +158,7 @@ def moch_yayan():
     print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)
     print ' %s=================================================='%(N)
     print ' %s=================================================='%(N)
-    print ' [%s?%s] %MENU PILIHAN'%(K,N,O)
+    print ' [%s?%s] %sMENU PILIHAN'%(K,N,O)
     print ' [%s1%s] Crack dari Daftar Teman'%(H,N)
     print ' [%s2%s] Crack dari Teman Publik'%(H,N)
     print ' [%s3%s] Crack dari Total Followers'%(H,N)

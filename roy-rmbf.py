@@ -661,7 +661,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = 'Mozilla/5.0 (Linux; Android 9; KFONWI Build/PS7318; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.101 Safari/537.36 [FB_IAB/FB4A;FBAV/306.1.0.40.119;]'
+            user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 OPR/43.0.2442.991'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
             'x-fb-net-hni': str(random.randint(20000, 40000)), 
             'x-fb-connection-quality': 'EXCELLENT', 
@@ -705,7 +705,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-            user_agent = 'Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36'
+            user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 OPR/43.0.2442.991'
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
                'x-fb-net-hni': str(random.randint(20000, 40000)), 
                'x-fb-connection-quality': 'EXCELLENT', 

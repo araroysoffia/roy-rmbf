@@ -313,7 +313,7 @@ def publik():
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [***] Menghitung Total Dump ID : %s ' % str(len(id)),
+            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
             sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -353,7 +353,7 @@ def followers():
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [***] Menghitung Total Dump ID : %s ' % str(len(id)),
+            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
             sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -393,7 +393,7 @@ def postingan():
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [***] Menghitung Total Dump ID : %s ' % str(len(id)),
+            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
             sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -562,7 +562,7 @@ class __crack__:
         try:
             self.apk = raw_input('\n [%s?%s] Masukkan Nama File : '%(K,N))
             self.id = open(self.apk).read().splitlines()
-            print ' [%s***%s] Menghitung Total ID : %s%s%s' %(H,N,M,len(self.id),N)
+            print ' [%s*%s] Menghitung Total ID : %s%s%s' %(H,N,M,len(self.id),N)
         except:
             print '\n %s[%s!%s] File [%s%s%s] tidak ada, Silahkan dump ID terlebih dahulu!'%(N,M,N,M,self.apk,P)
             time.sleep(3)
@@ -634,7 +634,7 @@ class __crack__:
                             print '\n %s[%s!%s] Isi dengan bener!'%(N,M,N)
                             time.sleep(2)
                             moch_yayan()
-                    print '\n %s=================================================='%(N)
+                    print ' %s=================================================='%(N)
                     print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
                     print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,M,N)
                     print ' %s[%s2%s] Method %smbasic %s(%sProses Slow%s)'%(N,H,N,O,N,K,N)
@@ -643,7 +643,7 @@ class __crack__:
                     break
 
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n %s=================================================='%(N)
+            print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
             print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,M,N)
             print ' %s[%s2%s] Method %smbasic %s(%sProses Slow%s)'%(N,H,N,O,N,K,N)
@@ -779,7 +779,7 @@ class __crack__:
             print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
             print ' %s=================================================='%(N)
-            print '\n [%s!%s] Matikan data selular untuk menjeda/refresh proses crack'%(M,N)
+            print '\n [%s!%s] Matikan data selular untuk menjeda proses crack'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -819,7 +819,7 @@ class __crack__:
             print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
             print ' %s=================================================='%(N)
-            print '\n [%s!%s] Matikan data selular untuk menjeda/refresh proses crack'%(M,N)
+            print '\n [%s!%s] Matikan data selular untuk menjeda proses crack'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -859,7 +859,7 @@ class __crack__:
             print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
             print ' %s=================================================='%(N)
-            print '\n [%s!%s] Matikan data selular untuk menjeda/refresh proses crack'%(M,N)
+            print '\n [%s!%s] Matikan data selular untuk menjeda proses crack'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:

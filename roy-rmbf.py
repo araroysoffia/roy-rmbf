@@ -809,7 +809,7 @@ class __crack__:
                         		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         		xz[2], xz[2]+'123', xz[2]+'12345',
-					'sayang',
+					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -840,7 +840,6 @@ class __crack__:
                             	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
-					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [

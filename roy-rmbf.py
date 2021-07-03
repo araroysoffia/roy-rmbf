@@ -89,7 +89,7 @@ def hasil(ok,cp):
 		print ' [%s✓%s] Total CP : %s%s%s'%(K,N,K,str(len(cp)),N)
 		exit()
 	else:
-		print '\n\n [%s!%s] Maaf kamu tidak mendapatkan hasil Crack :('%(M,N)
+		print '\n [%s!%s] Maaf kamu tidak mendapatkan hasil Crack :('%(M,N)
 		exit()
 # Token FB bukan token PLN
 def yayanxd():

@@ -157,7 +157,6 @@ def moch_yayan():
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,K,N,K,idfb,N)
     print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)
     print ' %s=================================================='%(N)
-    print ' %s=================================================='%(N)
     print ' [%s?%s] %sMENU PILIHAN'%(K,N,O)
     print ' %s[%s1%s] Crack dari Daftar Teman'%(N,H,N)
     print ' [%s2%s] Crack dari Teman Publik'%(H,N)

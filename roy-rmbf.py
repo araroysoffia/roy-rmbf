@@ -636,18 +636,18 @@ class __crack__:
                             moch_yayan()
                     print ' %s=================================================='%(N)
                     print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
-                    print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Samsung S7 Prime%s)'%(N,H,N,O,N,M,N)
-                    print ' %s[%s2%s] Method %smbasic %s(%sProses Slow Via UA Opera Mini%s)'%(N,H,N,O,N,K,N)
-                    print ' %s[%s3%s] Method %smobile %s(%sProses Sangat Via Slow UA Chrome%s)'%(N,H,N,O,N,H,N)
+                    print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Samsung%s)'%(N,H,N,O,N,M,N)
+                    print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Opera Mini%s)'%(N,H,N,O,N,K,N)
+                    print ' %s[%s3%s] Method %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,H,N)
                     __yan__(pwek.split(','))
                     break
 
         elif ___yayanganteng___ in ('T', 't'):
             print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
-            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Samsung S7 Prime%s)'%(N,H,N,O,N,M,N)
-            print ' %s[%s2%s] Method %smbasic %s(%sProses Slow Via UA Opera Mini%s)'%(N,H,N,O,N,K,N)
-            print ' %s[%s3%s] Method %smobile %s(%sProses Sangat Slow Via UA Chrome%s)'%(N,H,N,O,N,H,N)
+            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Samsung%s)'%(N,H,N,O,N,M,N)
+            print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Opera Mini%s)'%(N,H,N,O,N,K,N)
+            print ' %s[%s3%s] Method %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,H,N)
             self.__pler__()
         else:
             print '\n %s[%sx%s] y/t !'%(N,M,N)

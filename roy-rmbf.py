@@ -788,15 +788,24 @@ class __crack__:
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        	]
+                        elif len(xz) == 1:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
-					'sayang', 'bismillah',
+                        	]
+                        elif len(xz) == 2:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
-					'sayang', 'bismillah',
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -804,7 +813,16 @@ class __crack__:
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
                         		xz[3], xz[3]+'123', xz[3]+'12345', 
-					'sayang', 'bismillah',
+                        		xz[4], xz[4]+'123', xz[4]+'12345', 
+                        	]
+                        elif len(xz) == 5:
+                        	raimuuu = [
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 
+                        		xz[4], xz[4]+'123', xz[4]+'12345', 
+                        		xz[5], xz[5]+'123', xz[5]+'12345', 
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:
@@ -830,14 +848,12 @@ class __crack__:
                             	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
-					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
-					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -845,7 +861,6 @@ class __crack__:
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
                         		xz[3], xz[3]+'123', xz[3]+'12345', 
-					'sayang', 'bismillah',
                         	]
                         __yayanXD__.submit(self.__mbasic__, bb[0], raimuuu)
                     except:
@@ -871,14 +886,12 @@ class __crack__:
                             	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
-					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
                         		xz[0], xz[0]+'123', xz[0]+'12345', 
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
-					'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
@@ -886,7 +899,6 @@ class __crack__:
                         		xz[1], xz[1]+'123', xz[1]+'12345', 
                         		xz[2], xz[2]+'123', xz[2]+'12345', 
                         		xz[3], xz[3]+'123', xz[3]+'12345', 
-					'sayang', 'bismillah',
                         	]
                         __yayanXD__.submit(self.__mfb__, bb[0], raimuuu)
                     except:

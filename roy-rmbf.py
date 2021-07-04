@@ -906,7 +906,7 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234' xz[0]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345',
                         	]
                         elif len(xz) == 1:
                         	raimuuu = [

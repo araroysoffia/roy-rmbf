@@ -1,7 +1,6 @@
 # Metode Login Termux
 ````php
-Token FB
-Akun Tumbalan Awet
+Token FB (Akun Tumbal Awet)
 ````
 # Metode Crack
 ````php

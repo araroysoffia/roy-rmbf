@@ -1,15 +1,32 @@
-# 1 Metode Login Termux
+# Metode Login Termux
 ````php
 Token FB
-Akun tumbalan awet
+Akun Tumbalan Awet
 ````
-# 5 Sandi Bawaan
+# Metode Crack
 ````php
+Method b-api (Prose Capet Via UA Samsung Galaxy S7 Prime)
+Method mbasic (Proses Normal Via UA Opera Mini)
+Method mobile (Proses Lama Via Chrome)
+````
+# Sandi Otomoatis
+````php
+Method b-api (Prose Capet Via UA Samsung Galaxy S7 Prime) :
 nama
 nama123
+nama1234
 nama12345
 sayang
 bismillah
+Method mbasic (Proses Normal Via UA Opera Mini) :
+nama
+nama123
+nama1234
+nama12345
+Method mobile (Proses Lama Via Chrome) :
+nama
+nama123
+nama12345
 ````
 # Perintah Menjalankan SC
 ````php

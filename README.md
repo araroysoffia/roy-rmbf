@@ -7,7 +7,7 @@ Akun Tumbalan Awet
 ````php
 Method b-api (Prose Capet Via UA Samsung Galaxy S7 Prime)
 Method mbasic (Proses Normal Via UA Opera Mini)
-Method mobile (Proses Lama Via Chrome)
+Method mobile (Proses Lama Via UA Chrome)
 ````
 # Sandi Otomoatis
 ````php
@@ -23,7 +23,7 @@ nama
 nama123
 nama1234
 nama12345
-Method mobile (Proses Lama Via Chrome) :
+Method mobile (Proses Lama Via UA Chrome) :
 nama
 nama123
 nama12345

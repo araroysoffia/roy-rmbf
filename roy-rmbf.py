@@ -788,42 +788,42 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1 or len(xz) == 2 or len(xz) == 3 or len(xz) == 4 or len(xz) == 5:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 1:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[3], xz[3]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[3], xz[3]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[3], xz[3]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[4], xz[4]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[3], xz[3]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[4], xz[4]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah',
                         	]
                         elif len(xz) == 5:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[3], xz[3]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[4], xz[4]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah', 
-                        		xz[5], xz[5]+'123', xz[0]+'1234', xz[0]+'12345', 'sayang', 'bismillah',
+                        		xz[0], xz[0]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[1], xz[1]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[2], xz[2]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[3], xz[3]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[4], xz[4]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah', 
+                        		xz[5], xz[5]+'123', xz[0]+'1234', xz[0]+'12345', xz[0]+'ganteng', xz[0]+'cantik', 'sayang', 'bismillah',
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:

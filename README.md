@@ -46,5 +46,5 @@ $ python2 roy-rmbf.py
 $ cd roy-rmbf
 $ git pull
 $ python2 roy-rmbf.py
-https://github.com/royofficial/roy-rmbf/blob/f67d182f0bbf550c28741eda32074522c1cb9192/Screenshot_20210704-161125301.jpg
+
 ````

@@ -4,13 +4,13 @@ Token FB (Akun Tumbal Awet)
 ````
 # Metode Crack
 ````php
-Method b-api (Prose Capet Via UA Chrome)
-Method mbasic (Proses Normal Via UA Chrome)
+Method b-api (Prose Capet Via UA Random)
+Method mbasic (Proses Normal Via UA Opera)
 Method mobile (Proses Lama Via UA Chrome)
 ````
 # Sandi Otomoatis
 ````php
-Method b-api (Prose Capet Via UA Samsung Galaxy S7 Prime) :
+Method b-api (Prose Capet Via UA Random) :
 nama
 nama123
 nama1234
@@ -18,7 +18,6 @@ nama12345
 sayang
 bismillah
 rahasia
-indonesia
 Method mbasic (Proses Normal Via UA Opera Mini) :
 nama
 nama123

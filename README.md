@@ -4,8 +4,8 @@ Token FB (Akun Tumbal Awet)
 ````
 # Metode Crack
 ````php
-Method b-api (Prose Capet Via UA Samsung Galaxy S7 Prime)
-Method mbasic (Proses Normal Via UA Opera Mini)
+Method b-api (Prose Capet Via UA Chrome)
+Method mbasic (Proses Normal Via UA Chrome)
 Method mobile (Proses Lama Via UA Chrome)
 ````
 # Sandi Otomoatis

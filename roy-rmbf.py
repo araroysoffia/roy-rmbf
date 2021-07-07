@@ -572,7 +572,7 @@ class __crack__:
         ___yayanganteng___ = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
 	if ___yayanganteng___ in('',' '):
 			print("\n %s[%s×%s] isi yang bener"%(N,M,N));self.slurr()
-		elif ___yayanganteng___ in('Y','y'):
+		elif ___yayanganteng___ in('Y', 'y'):
 			print ('\n [%s!%s] %sGunakan simbol (,) untuk pemisah sandi%s '%(M,N,M,N)
 			while True:
 				pwek = raw_input('\n [%s?%s] Masukkan Sandi Manual : '%(K,N))

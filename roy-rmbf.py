@@ -645,7 +645,7 @@ class __crack__:
         elif ___yayanganteng___ in ('T', 't'):
             print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Method login Anda. Silahkan coba satu²'%(N,K,N)
-            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via UA Random%s)'%(N,H,N,O,N,H,N)
+            print ' %s[%s1%s] Method %sb-api %s(%sProses Cepat Via 203 UA Random%s)'%(N,H,N,O,N,H,N)
             print ' %s[%s2%s] Method %smbasic %s(%sProses Normal Via UA Opera%s)'%(N,H,N,O,N,K,N)
             print ' %s[%s3%s] Method %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
             self.__pler__()

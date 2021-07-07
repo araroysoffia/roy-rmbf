@@ -187,9 +187,9 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
         	jalan('\n NOTE! Ketik %suser%s jika anda ingin mendapatkan ID dari username'%(H,N));time.sleep(0.07)
         	cek_ingfo()
         elif yan =='7':
-            print("\n \033[0;97m[\033[0;96m1\033[0;97m] Check hasil OK")
-            print(" \033[0;97m[\033[0;96m2\033[0;97m] Check hasil CP")
-            ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Choose : ")
+            print("\n \033[0;97m[\x1b[1;92m1\033[0;97m] Cek hasil \x1b[1;92mOK\x1b[0m")
+            print(" \033[0;97m[\x1b[1;93m2\033[0;97m] Cek hasil \x1b[1;93mCP\x1b[0m")
+            ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Pilih : ")
             if ask =="":
                 moch_yayan()
             elif ask == "1" or ask == "01":
@@ -584,6 +584,7 @@ class __crack__:
                         cin = raw_input('\n [%s?%s] Pilihan Metode Anda : '%(K,N))
                         if cin == '':
                             self.__yan__()
+			elif cin == '1':
                             print ' %s=================================================='%(N)
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)

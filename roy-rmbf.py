@@ -562,7 +562,7 @@ class __crack__:
         try:
             self.apk = raw_input('\n [%s?%s] Masukkan Nama File : '%(K,N))
             self.id = open(self.apk).read().splitlines()
-            print ' [%s*%s] Menghitung Total ID : %s%s%s' %(H,N,M,len(self.id),N)
+            print ' [%s*%s] Total ID : %s%s%s' %(H,N,M,len(self.id),N)
         except:
             print '\n %s[%s!%s] File [%s%s%s] tidak ada, Silahkan dump ID terlebih dahulu!'%(N,M,N,M,self.apk,P)
             time.sleep(3)
@@ -584,8 +584,8 @@ class __crack__:
                             self.__yan__()
                         elif cin == '1':
                             print ' %s=================================================='%(N)
-            		    print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
-            		    print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+            		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
             		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
             		    print ' %s=================================================='%(N)
@@ -603,8 +603,8 @@ class __crack__:
                             exit()
                         elif cin == '2':
                             print ' %s=================================================='%(N)
-            		    print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
-            		    print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+            		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
             		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
             		    print ' %s=================================================='%(N)
@@ -622,8 +622,8 @@ class __crack__:
                             exit()
                         elif cin == '3':
                             print ' %s=================================================='%(N)
-            		    print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
-            		    print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+            		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
             		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
             		    print ' %s=================================================='%(N)
@@ -990,8 +990,8 @@ class __crack__:
             self.__pler__()
         elif yan in ('1', '01'):
             print ' %s=================================================='%(N)
-            print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
-            print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+            print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
             print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
             print ' %s=================================================='%(N)
@@ -1040,8 +1040,8 @@ class __crack__:
             exit()
         elif yan in ('2', '02'):
             print ' %s=================================================='%(N)
-            print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
-            print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+            print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
             print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
             print ' %s=================================================='%(N)
@@ -1090,8 +1090,8 @@ class __crack__:
             exit()
         elif yan in ('3', '03'):
             print ' %s=================================================='%(N)
-            print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
-            print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+            print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
             print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
             print ' %s=================================================='%(N)

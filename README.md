@@ -15,8 +15,6 @@ nama
 nama123
 nama1234
 nama12345
-sayang
-bismillah
 Method mbasic (Proses Normal Via UA Opera Mini) :
 nama
 nama123

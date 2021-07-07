@@ -570,22 +570,20 @@ class __crack__:
             moch_yayan()
 
         ___yayanganteng___ = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
-	if ___yayanganteng___ in('',' '):
-			print("\n %s[%s×%s] isi yang bener"%(N,M,N));self.slurr()
-		elif ___yayanganteng___ in('Y', 'y'):
-			print ('\n [%s!%s] %sGunakan simbol (,) untuk pemisah sandi%s '%(M,N,M,N)
-			while True:
-				pwek = raw_input('\n [%s?%s] Masukkan Sandi Manual : '%(K,N))
-				if pwek in('',' '):
-					print ('\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N))
-				elif len(pwek)<=5:
-					print ('\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N))
-				else:
-					def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
-						cin=raw_input('\n [%s?%s] Pilihan Metode Anda : '%(K,N))
-						if cin in('',' '):
-							print("\n %s[%s×%s] Pilih yang bener"%(N,M,N));self.__yan__()
-						elif cin in('1'):
+        if ___yayanganteng___ in ('Y', 'y'):
+            print '\n [%s?%s] Contoh: %ssayang,bismillah,roy123%s '%(K,N,K,N)
+	    print ' [%s!%s] %sGunakan simbol (,) untuk pemisah sandi%s '%(M,N,M,N)
+            while True:
+                pwek = raw_input('\n [%s?%s] Masukkan Sandi Manual : '%(K,N))
+                print ' [%s?%s] Sandi Manual Telah Dibuat : [ %s%s%s ]' % (K,N,M, pwek, N)
+                if pwek == '':
+                    self.slurr()
+                else:
+                	
+                    def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
+                        cin = raw_input('\n [%s?%s] Pilihan Metode Anda : '%(K,N))
+                        if cin == '':
+                            self.__yan__()
                             print ' %s=================================================='%(N)
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)

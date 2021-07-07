@@ -1,26 +1,16 @@
 # Metode Login Termux
 ````php
 Token FB (Akun Tumbal Awet)
+Presentase s7i TAP YES 70%
 ````
 # Metode Crack
 ````php
 Method b-api (Prose Capet Via 203 UA Random)
-Method mbasic (Proses Normal Via UA Opera)
+Method mbasic (Proses Normal Via UA Opera Mini)
 Method mobile (Proses Lama Via UA Chrome)
 ````
 # Sandi Otomoatis
 ````php
-Method b-api (Prose Capet Via 203 UA Random) :
-nama
-nama123
-nama1234
-nama12345
-Method mbasic (Proses Normal Via UA Opera Mini) :
-nama
-nama123
-nama1234
-nama12345
-Method mobile (Proses Lama Via UA Chrome) :
 nama
 nama123
 nama12345

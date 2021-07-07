@@ -583,9 +583,12 @@ class __crack__:
                         if cin == '':
                             self.__yan__()
                         elif cin == '1':
-                            print '\n [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H, N, ha, op, ta)
-                            print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K, N, ha, op, ta)
-                            print '\n [%s!%s] Anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print ' %s=================================================='%(N)
+            		    print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
+            		    print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            		    print ' %s=================================================='%(N)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -599,9 +602,12 @@ class __crack__:
                             hasil(ok,cp)
                             exit()
                         elif cin == '2':
-                            print '\n [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H, N, ha, op, ta)
-                            print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K, N, ha, op, ta)
-                            print '\n [%s!%s] Anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print ' %s=================================================='%(N)
+            		    print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
+            		    print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            		    print ' %s=================================================='%(N)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -615,9 +621,12 @@ class __crack__:
                             hasil(ok,cp)
                             exit()
                         elif cin == '3':
-                            print '\n [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H, N, ha, op, ta)
-                            print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K, N, ha, op, ta)
-                            print '\n [%s!%s] Anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
+                            print ' %s=================================================='%(N)
+            		    print ' [%s✓%s] Hasil OK ke : results/OK-%s-%s-%s.txt' % (H,N,ha, op, ta)
+            		    print ' [%s✓%s] Hasil CP ke : results/CP-%s-%s-%s.txt' % (K,N,ha, op, ta)
+            		    print ' %s=================================================='%(N)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:

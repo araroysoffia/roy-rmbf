@@ -34,7 +34,7 @@ $ apt-get upgrade
 $ pkg install python2
 $ pkg install git
 $ rm -rf roy-rmbf
-$ git clone https://github.com/royofficial/roy-rmbf
+$ git clone https://github.com/royaraofficial/roy-rmbf
 $ pip2 install requests
 $ pip2 install futures
 $ pip2 install bs4
@@ -46,6 +46,4 @@ $ python2 roy-rmbf.py
 $ cd roy-rmbf
 $ git pull
 $ python2 roy-rmbf.py
-![Screenshot_20210704-202902484](https://user-images.githubusercontent.com/85897883/124652045-d9dd1380-dec5-11eb-8ec7-1fd5f9dc0001.jpg)
-
 ````

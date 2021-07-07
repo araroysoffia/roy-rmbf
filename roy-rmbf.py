@@ -572,7 +572,7 @@ class __crack__:
         ___yayanganteng___ = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
         if ___yayanganteng___ in ('Y', 'y'):
             print '\n [%s?%s] Contoh: %ssayang,bismillah,roy123%s '%(K,N,K,N)
-	    print ' [%s!%s] %sGunakan simbol (,) untuk pemisah sandi%s '%(K,N,M,N)
+	    print ' [%s!%s] %sGunakan simbol (,) untuk pemisah sandi%s '%(M,N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] Masukkan Sandi Manual : '%(K,N))
                 print ' [%s?%s] Sandi Manual Telah Dibuat : [ %s%s%s ]' % (K,N,M, pwek, N)

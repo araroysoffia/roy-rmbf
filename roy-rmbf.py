@@ -158,7 +158,7 @@ def moch_yayan():
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,K,N,K,idfb,N)
     print ' %s[%s*%s] IP Anda : %s%s'%(N,K,N,K,IP)
     print ' %s=================================================='%(N)
-    print ' [%s?%s] %sMENU PILIHAN'%(K,N,O)
+    print ' [%s?%s] %sMENU PILIHAN'%(K,N,K)
     print ' %s[%s1%s] Crack dari Daftar Teman'%(N,H,N)
     print ' [%s2%s] Crack dari Teman Publik'%(H,N)
     print ' [%s3%s] Crack dari Total Followers'%(H,N)
@@ -666,7 +666,7 @@ class __crack__:
 
     def __api__(self, user, _yan_):
     	global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s OK:%s - CP:%s '%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Crack : %s/%s \x1b[1;92mOK:%s \x1b[0m]- \x1b[1;93mCP:%s '%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()

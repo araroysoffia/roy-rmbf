@@ -94,7 +94,7 @@ def hasil(ok,cp):
 # Token FB bukan token PLN
 def yayanxd():
 	os.system('clear')
-	print (' %s*%s Tools ini menggunakan login token FB.\n %s*%s Apakah kamu sudah tau cara mendapatkan Token FB?\n %s*%s Ketik %sopen%s untuk mendapatkan Token FB.'%(O,N,O,N,O,N,H,N))
+	print (' %s*%s Tools ini menggunakan login token FB.\n %s*%s Apakah kamu sudah tau cara mendapatkan Token FB?\n %s*%s Ketik %sopen%s untuk mendapatkan Token FB.'%(H,N,H,N,H,N,H,N))
 	__cindy__ = raw_input('\n %s[%s?%s] Masukkan Token FB :%s '%(N,M,N,H))
 	if __cindy__ in ('open', 'Open', 'OPEN'):
 		print '\n%s *%s NOTE! Usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
@@ -111,9 +111,11 @@ def yayanxd():
 		zedd = open('__yayan__.txt', 'w')
 		zedd.write(__cindy__)
 		zedd.close()
-		print '\n\n %s*%s Selamat datang %s%s%s'%(O,N,K,nama,N)
+		print '\n %s*%s Selamat datang %s%s%s'%(H,N,K,nama,N)
 		time.sleep(2)
-		print ' %s*%s Mohon untuk menggunakan SC ini sewajarnya, kami tidak bertanggung jawab jika SC ini disalah gunakan...'%(O,N)
+		print ' %s!%s Mohon untuk menggunakan SC ini sewajarnya, kami tidak bertanggung jawab jika SC ini disalah gunakan. Jika ada bug atau masalah dalam SC ini mohon untuk melaporkannya ke Wa Admin'%(M,N)
+		time.sleep(2)
+		print ' %s*%s Tekan ENTER untuk melanjutkan & Intip Wa Author SC'%(H,N)
 		time.sleep(2)
 		raw_input(' [%s ENTER%s ] '%(O,N))
 		os.system('xdg-open https://api.whatsapp.com/send?phone=6281318306972?text=Hallo+bang')

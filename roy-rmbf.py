@@ -118,7 +118,7 @@ def yayanxd():
 		print ' %s*%s Tekan ENTER untuk melanjutkan & Intip Wa Author SC'%(H,N)
 		time.sleep(2)
 		raw_input(' [%s ENTER%s ] '%(O,N))
-		os.system('xdg-open https://api.whatsapp.com/send?phone=6281318306972-mg?text=Hallo+bang')
+		os.system('xdg-open https://wa.me/6281318306972?text=Hallo+bang')
 		kontol()
 	except KeyError:
 		print '\n\n %s[%s!%s] Token Invalid'%(N,M,N)

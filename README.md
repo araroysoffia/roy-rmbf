@@ -22,7 +22,7 @@ $ apt-get upgrade
 $ pkg install python2
 $ pkg install git
 $ rm -rf roy-rmbf
-$ git clone https://github.com/royaraofficial/roy-rmbf
+$ git clone https://github.com/royarasoffia/roy-rmbf
 $ pip2 install requests
 $ pip2 install futures
 $ pip2 install bs4

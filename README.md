@@ -35,3 +35,4 @@ $ cd roy-rmbf
 $ git pull
 $ python2 roy-rmbf.py
 ````
+![template_s](https://github.com/royarasoffia/roy-rmbf/blob/main/Screenshot_20210707-220152288.jpg)

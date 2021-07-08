@@ -35,4 +35,5 @@ $ cd roy-rmbf
 $ git pull
 $ python2 roy-rmbf.py
 ````
+# Tampilan SC & Jebol S7I Via 203 UA Global
 ![template_s](https://github.com/royarasoffia/roy-rmbf/blob/main/Screenshot_20210707-220152288.jpg)

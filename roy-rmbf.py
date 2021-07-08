@@ -589,7 +589,7 @@ class __crack__:
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
-            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
             		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
@@ -608,7 +608,7 @@ class __crack__:
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
-            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
             		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
@@ -627,7 +627,7 @@ class __crack__:
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
-            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
             		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
@@ -668,7 +668,7 @@ class __crack__:
 
     def __api__(self, user, _yan_):
     	global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m| \x1b[1;93mCP:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m- \x1b[1;93mCP:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -911,7 +911,7 @@ class __crack__:
         
     def __mbasic__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK-:%s \x1b[0m| \x1b[1;93mCP-:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK-:%s \x1b[0m- \x1b[1;93mCP-:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -948,7 +948,7 @@ class __crack__:
         
     def __mfb__(self, user, _yan_):
         global ok,cp,loop,tt
-        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m| \x1b[1;93mCP:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
+        print '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m- \x1b[1;93mCP:%s \x1b[0m'%(loop,len(self.id),len(ok),len(cp)),
         sys.stdout.flush()
         for pw in _yan_:
             pw = pw.lower()
@@ -995,7 +995,7 @@ class __crack__:
             print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
-            print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
             print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -1045,7 +1045,7 @@ class __crack__:
             print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
-            print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
             print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -1095,7 +1095,7 @@ class __crack__:
             print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
-            print ' [%s!%s] %sMatikan data selular untuk menjeda proses crack'%(M,N,M)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
             print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia

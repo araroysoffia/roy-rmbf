@@ -577,6 +577,7 @@ def crack_random():
     	print ' %s=================================================='%(N)
 	print ' %s[%s!%s] Ketik %smenu %sjika ingin ke menu awal'%(N,M,N,H,N)
 	print ' %s=================================================='%(N)
+	print ' [%s*%s] Metode Multi Intip dari Teman Publik (%sNew%s)'%(H,N,H,N)
 	limt = raw_input(' %s[%s?%s] Berapa Target : %s'%(N,K,N,H))
 	if limt =='':
 		print ' %s[%s!%s] Wajib Diisi !'%(N,M,N)
@@ -584,9 +585,9 @@ def crack_random():
 	elif limt in ('MENU', 'Menu', 'menu'):
 		moch_yayan()
 	elif limt == '1':
-		idt1 = raw_input(' %s[%s*%s] ID Publik :%s '%(N,O,N,H))
+		idt1 = raw_input(' %s[%s*%s] ID Publik :%s '%(N,h,N,H))
 		try:
-			lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+			lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
 			for a in j['data']:
@@ -597,9 +598,9 @@ def crack_random():
 			print '\n %s[%s!%s] ID Tidak Ada !'%(N,M,N)
 			crack_random()
 	elif limt == '2':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -619,10 +620,10 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
 	elif limt == '3':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -651,11 +652,11 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
 	elif limt == '4':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -693,12 +694,12 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
 	elif limt == '5':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -745,13 +746,13 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
 	elif limt == '6':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
-		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,H,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -807,14 +808,14 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 6 Tidak Ada !'%(N,M,N)
 	elif limt == '7':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
-		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
-		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,H,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,H,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -879,15 +880,15 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 7 Tidak Ada !'%(N,M,N)
 	elif limt == '8':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
-		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
-		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
-		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,H,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,H,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,H,N,H))
+		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -961,16 +962,16 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 8 Tidak Ada !'%(N,M,N)
 	elif limt == '9':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
-		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
-		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
-		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,O,N,H))
-		idt9 = raw_input(' %s[%s*%s] ID Publik 9 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,H,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,H,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,H,N,H))
+		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,H,N,H))
+		idt9 = raw_input(' %s[%s*%s] ID Publik 9 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)
@@ -1053,17 +1054,17 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 9 Tidak Ada !'%(N,M,N)
 	elif limt == '10':
-		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
-		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
-		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
-		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
-		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
-		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
-		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
-		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,O,N,H))
-		idt9 = raw_input(' %s[%s*%s] ID Publik 9 :%s '%(N,O,N,H))
-		idt10 = raw_input(' %s[%s*%s] ID Publik 10 :%s '%(N,O,N,H))
-		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,H,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,H,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,H,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,H,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,H,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,H,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,H,N,H))
+		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,H,N,H))
+		idt9 = raw_input(' %s[%s*%s] ID Publik 9 :%s '%(N,H,N,H))
+		idt10 = raw_input(' %s[%s*%s] ID Publik 10 :%s '%(N,H,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,H))
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
 			j = json.loads(r.text)

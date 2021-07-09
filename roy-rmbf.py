@@ -171,7 +171,7 @@ def moch_yayan():
     print ' [%s6%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
     print ' %s[%s7%s] Cek Informasi Akun FB'%(N,K,N)
     print ' [%s8%s] Cek Hasil Intip'%(K,N)
-    print ' [%s9%s] Info %sSC ROY-RMBF'%(K,N,H)
+    print ' [%s9%s] Info SC ROY-RMBF'%(K,N)
     print ' %s[%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():

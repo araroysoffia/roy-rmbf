@@ -82,8 +82,7 @@ IP = requests.get('https://api.ipify.org').text
 logo = '''%s ╦═╗╔═╗╦ ╦   ╦═╗╔╦╗╔╗ ╔═╗
  %s╠╦╝║ ║╚╦╝───╠╦╝║║║╠╩╗╠╣ 
  %s╩╚═╚═╝ ╩    ╩╚═╩ ╩╚═╝╚  %s
-%s %s==================================================%s
- [ \x1b[47;30;1m ROY MULTI BRUTE FACEBOOK%s ]'''%(M,K,H,M,N,N,N,N)
+%s %s==================================================%s'''%(M,K,H,M,N,N,N)
 # crack selesai
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
@@ -156,7 +155,8 @@ def moch_yayan():
     print ' %s[%s*%s] Author   : %sRoy Octa Firdaus'%(N,H,N,K,)
     print ' %s[%s*%s] Facebook : %sfacebook.com/JbFbOld'%(N,H,N,K)
     print ' %s[%s*%s] Whatsapp : %s081318306972'%(N,H,N,K)
-    print ' %s[%s*%s] Versi SC : %sV1.0'%(N,H,N,K)
+    print ' %s[%s*%s] Nama SC : %sRoy Multi Brute Facebook'%(N,H,N,K)
+    print ' %s[%s*%s] Versi SC : %sV1.2'%(N,H,N,K)
     print ' %s=================================================='%(N)
     print ' %s[%s*%s] Nama FB : %s%s%s'%(N,H,N,K,nama,N)
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,H,N,K,idfb,N)
@@ -572,9 +572,10 @@ def crack_random():
 	print ' %s[%s*%s] Author   : %sRoy Octa Firdaus'%(N,H,N,K,)
     	print ' %s[%s*%s] Facebook : %sfacebook.com/JbFbOld'%(N,H,N,K)
     	print ' %s[%s*%s] Whatsapp : %s081318306972'%(N,H,N,K)
-    	print ' %s[%s*%s] Versi SC : %sV1.0'%(N,H,N,K)
+    	print ' %s[%s*%s] Nama SC : %sRoy Multi Brute Facebook'%(N,H,N,K)
+    	print ' %s[%s*%s] Versi SC : %sV1.2'%(N,H,N,K)
     	print ' %s=================================================='%(N)
-	print '\n %s[%s!%s] Ketik %smenu %sjika ingin ke menu awal\n'%(N,M,N,H,N)
+	print ' %s[%s!%s] Ketik %smenu %sjika ingin ke menu awal'%(N,M,N,H,N)
 	print ' %s=================================================='%(N)
 	limt = raw_input(' %s[%s?%s] Berapa Target : %s'%(N,K,N,H))
 	if limt =='':

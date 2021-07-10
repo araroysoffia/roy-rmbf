@@ -166,10 +166,10 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
             elif ask == "1" or ask == "01":
                 try:
                     totalok = open("results/OK-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
+                    print("\n \033==================================================")
                     print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;92mOK\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \033[0;92mTotal %s: %s%s\033[0;92m"%(ha, op, ta,M,H,len(totalok)))
                     os.system("cat results/OK-%s-%s-%s.txt"%(ha, op, ta))
-                    print(" \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
+                    print(" \033==================================================")
                     moch_yayan()
                 except (IOError):
                     print(" \033[0;97m[\033[0;91m!\033[0;97m] Kamu tidak mendapatkan hasil OK :(")
@@ -178,10 +178,10 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
             elif ask == "2" or ask == "02":
                 try:
                     totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
-                    print("\n \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
+                    print("\n \033==================================================")
                     print(" \033[0;97m[\033[0;92m+\033[0;97m] Hasil \033[0;93mCP\033[0;97m pada tanggal : \033[0;92m%s-%s-%s \033[0;92mTotal %s: %s%s\033[0;93m"%(ha, op, ta,M,K,len(totalcp)))
                     os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
-                    print(" \033[0;97m[\033[0;93m#\033[0;97m] ==================================================")
+                    print(" \033==================================================")
                     raw_input(' [%s KEMBALI%s ] '%(O,N))
                     moch_yayan()
                 except (IOError):
@@ -811,11 +811,11 @@ def crack_random():
 		except KeyError:
 			print ' %s[%s!%s] ID 10 Tidak Ada !'%(N,M,N)
 			
-	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N)
-	print ' %s[%s?%s] Pilih Metode Intip & Meotode Sandi Anda.'%(N,K,N)
-	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis%s)'%(N,H,N,O,N,H,N)
-        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual%s)'%(N,H,N,O,N,K,N)
-	ask = raw_input(' [%s?%s] Ingin menggunakan Metode [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
+	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N);time.sleep(2)
+	print ' %s[%s?%s] Pilih Metode Intip & Meotode Sandi Anda.'%(N,K,N);time.sleep(2)
+	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis%s)'%(N,H,N,O,N,H,N);time.sleep(2)
+        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual%s)'%(N,H,N,O,N,K,N);time.sleep(2)
+	ask = raw_input(' [%s?%s] Ingin menggunakan Metode [%sY%s/%sT%s]: '%(K,N,H,N,M,N));time.sleep(2)
 	if ask == "Y" or ask == "y":
 		manual()  
 	print ' %s=================================================='%(N)

@@ -812,6 +812,9 @@ def crack_random():
 			print ' %s[%s!%s] ID 10 Tidak Ada !'%(N,M,N)
 			
 	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N)
+	print ' %s[%s?%s] Pilih Metode Intip & Meotode Sandi Anda.'%(N,K,N)
+	print ' %s[%sT/t%s] Metode %sb-api %s(%sSandi Otomatis%s)'%(N,H,N,O,N,H,N)
+        print ' %s[%sY/y%s] Metode %smbasic %s(%sSandi Manual%s)'%(N,H,N,O,N,K,N)
 	ask = raw_input(' [%s?%s] Ingin menggunakan kata sandi manual? [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
 	if ask == "Y" or ask == "y":
 		manual()  
@@ -881,7 +884,7 @@ def crack_random():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
-	lagi = raw_input('\n %s[%s*%s] Crack Lagi? Y/t : %s'%(N,O,N,H))
+	lagi = raw_input('\n %s[%s*%s] ke Menu Multi Intip Lagi? Y/t : %s'%(N,O,N,H))
 	if lagi in ('Y', 'y'):
 		crack_random()
 	elif lagi in ('T', 't'):
@@ -956,11 +959,11 @@ def manual():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
-	lagi = raw_input('\n %s[%s*%s] Crack Lagi? Y/t : %s'%(N,O,N,H))
+	lagi = raw_input('\n %s[%s*%s] ke Menu Multi Intip Lagi? Y/t : %s'%(N,O,N,H))
 	if lagi in ('Y', 'y'):
 		crack_random()
 	elif lagi in ('T', 't'):
-		print '\n %sselamat tinggal :) '%(N)
+		os.system("python2 roy-rmbf.py")
 	else:
 		exit()
 

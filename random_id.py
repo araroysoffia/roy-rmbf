@@ -235,7 +235,7 @@ def crack_random():
 		print ' %s[%s!%s] Wajib Diisi !'%(N,M,N)
 		crack_random()
 	elif limt in ('MENU', 'Menu', 'menu'):
-		moch_yayan()
+		os.system("python2 roy-rmbf.py")
 	elif limt == '1':
 		idt1 = raw_input(' %s[%s*%s] ID Publik :%s '%(N,H,N,H))
 		try:
@@ -882,7 +882,7 @@ def crack_random():
 	if lagi in ('Y', 'y'):
 		crack_random()
 	elif lagi in ('T', 't'):
-		print '\n %sselamat tinggal :) '%(N)
+		os.system("python2 roy-rmbf.py")
 	else:
 		exit()
 		

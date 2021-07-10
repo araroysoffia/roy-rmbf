@@ -232,7 +232,7 @@ def crack_random():
     	print ' %s=================================================='%(N)
 	print ' %s[%s!%s] Ketik %smenu %sjika ingin kembali ke %sMENU UTAMA%s'%(N,M,N,H,N,H,N)
 	print ' %s=================================================='%(N)
-	print ' [%s?%s] Pilih berapa Target yang diinginkan? %s1-10%s'%(H,N,H,N)
+	print ' [%s?%s] Pilih berapa Target yang diinginkan? %s1-10%s'%(K,N,H,N)
 	limt = raw_input(' [%s?%s] Berapa Target : %s'%(K,N,H))
 	if limt =='':
 		print ' %s[%s!%s] Wajib Diisi !'%(N,M,N)

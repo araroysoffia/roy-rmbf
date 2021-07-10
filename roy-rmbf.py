@@ -190,8 +190,8 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
         elif yan =='6':
         	print("\n \033[0;97m[\x1b[1;92m1\033[0;97m] Cek hasil \x1b[1;92mOK\x1b[0m")
             	print(" \033[0;97m[\x1b[1;93m2\033[0;97m] Cek hasil \x1b[1;93mCP\x1b[0m")
-            ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Pilih : ")
-            if ask =="":
+            	ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Pilih : ")
+            	if ask =="":
                 moch_yayan()
             elif ask == "1" or ask == "01":
                 try:

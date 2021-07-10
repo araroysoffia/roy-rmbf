@@ -812,10 +812,10 @@ def crack_random():
 			print ' %s[%s!%s] ID 10 Tidak Ada !'%(N,M,N)
 			
 	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N);time.sleep(2)
-	print ' %s[%s?%s] Pilih Metode Intip & Meotode Sandi Anda.'%(N,K,N);time.sleep(2)
-	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis%s)'%(N,H,N,O,N,H,N);time.sleep(2)
-        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual%s)'%(N,H,N,O,N,K,N);time.sleep(2)
-	ask = raw_input(' [%s?%s] Ingin menggunakan Metode [%sY%s/%sT%s]: '%(K,N,H,N,M,N));time.sleep(2)
+	print ' %s[%s?%s] Pilih Metode Intip & Meotode Sandi Anda.'%(N,K,N)
+	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis%s)'%(N,H,N,O,N,H,N)
+        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual%s)'%(N,H,N,O,N,K,N)
+	ask = raw_input(' [%s?%s] Ingin menggunakan Metode [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
 	if ask == "Y" or ask == "y":
 		manual()  
 	print ' %s=================================================='%(N)

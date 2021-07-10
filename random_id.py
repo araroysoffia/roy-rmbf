@@ -838,11 +838,11 @@ def crack_random():
 			else:
 				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
 					pwx.append(ss+"123")
-					pwx.append(ss+"1234")
 					pwx.append(ss+"12345")
 				else:
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
+					pwx.append(ss)
 		try:
 			for pw in pwx:
 				pw = pw.lower()

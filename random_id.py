@@ -145,10 +145,11 @@ def moch_yayan():
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,H,N,K,idfb,N)
     print ' %s[%s*%s] IP Anda : %s%s'%(N,H,N,K,IP)
     print ' %s=================================================='%(N)
-    print ' [%s?%s] %sMENU PILIHAN'%(K,N,K)
-    print ' [%s1%s] %sMULAI INTIP%s'%(K,N,H,N)
+    print ' [%s?%s] %sMENU PILIHAN%s'%(K,N,K,N)
+    print ' [%s1%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
     print ' [%s2%s] Cek Hasil Intip'%(K,N)
-    print ' %s[%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
+    print ' [%s3%s] Kembali ke %sMENU UTAMA%s'%(K,N,H,N)
+    print ' [%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
         yan = raw_input('\n [%s?%s] Pilih Menu : '%(K,N))
@@ -189,6 +190,8 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
                     moch_yayan()
             else:
                 moch_yayan()
+	elif yan =='3':
+            	os.system("python2 roy-rmbf.py")
         elif yan =='0':
             	print '\n'
                 tod()
@@ -227,10 +230,10 @@ def crack_random():
     	print ' %s[%s*%s] Nama SC   : %sRoy Multi Brute Facebook'%(N,H,N,K)
     	print ' %s[%s*%s] Versi SC  : %sV1.2'%(N,H,N,K)
     	print ' %s=================================================='%(N)
-	print ' %s[%s!%s] Ketik %smenu %sjika ingin ke menu awal'%(N,M,N,H,N)
+	print ' %s[%s!%s] Ketik %smenu %sjika ingin kembali ke %sMENU UTAMA%s'%(N,M,N,H,N,H,N)
 	print ' %s=================================================='%(N)
-	print ' [%s*%s] Metode Multi Intip dari Teman Publik (%sNew%s)'%(H,N,H,N)
-	limt = raw_input(' %s[%s?%s] Berapa Target : %s'%(N,K,N,H))
+	print ' [%s?%s] Pilih berapa Target yang diinginkan? %s1-10%s'%(H,N,H,N)
+	limt = raw_input(' [%s?%s] Berapa Target : %s'%(K,N,H))
 	if limt =='':
 		print ' %s[%s!%s] Wajib Diisi !'%(N,M,N)
 		crack_random()

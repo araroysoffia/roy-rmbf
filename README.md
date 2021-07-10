@@ -5,9 +5,19 @@ Presentase s7i TAP YES 70%
 ````
 # Metode Crack
 ````php
-Method b-api (Prose Capet Via 203 UA Random)
+1. Crack dari Daftar Teman
+2. Crack dari Teman Publik
+3. Crack dari Total Follower
+4. Crack dari Like Postingan
+Method b-api (Prose Capet Via UA Random)
 Method mbasic (Proses Normal Via UA Opera Mini)
 Method mobile (Proses Lama Via UA Chrome)
+````
+# Fitur Baru Multi Crack
+````php
+1. Multi Crack Teman Publik : Crack 1 sampai 10 ID Target sekaligus.
+Method b-api (Sandi Otomatis)
+Method mbasic (Sandi Manual)
 ````
 # Sandi Otomoatis
 ````php

@@ -149,7 +149,7 @@ def moch_yayan():
     print ' [%s1%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
     print ' [%s2%s] Cek Hasil Intip'%(K,N)
     print ' [%s3%s] Kembali ke %sMENU UTAMA%s'%(K,N,H,N)
-    print ' [%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
+    print ' [%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
         yan = raw_input('\n [%s?%s] Pilih Menu : '%(K,N))

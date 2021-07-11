@@ -155,7 +155,7 @@ def moch_yayan():
     print ' %s[%s*%s] Facebook  : %sfacebook.com/JbFbOld'%(N,H,N,K)
     print ' %s[%s*%s] Whatsapp  : %s081318306972'%(N,H,N,K)
     print ' %s[%s*%s] Nama SC   : %sRoy Multi Brute Facebook'%(N,H,N,K)
-    print ' %s[%s*%s] Versi SC  : %sV1.2'%(N,H,N,K)
+    print ' %s[%s*%s] Versi SC  : %sV1.3'%(N,H,N,K)
     print ' %s=================================================='%(N)
     print ' %s[%s*%s] Nama FB : %s%s%s'%(N,H,N,K,nama,N)
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,H,N,K,idfb,N)
@@ -596,7 +596,7 @@ class __crack__:
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
-            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
             		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
@@ -615,7 +615,7 @@ class __crack__:
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
-            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
             		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
@@ -634,7 +634,7 @@ class __crack__:
             		    print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             		    print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             		    print ' %s=================================================='%(N)
-            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+            		    print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
             		    print ' %s=================================================='%(N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
@@ -654,8 +654,8 @@ class __crack__:
                             moch_yayan()
                     print ' %s=================================================='%(N)
                     print ' %s[%s?%s] Pilih Metode Intip Anda. Silahkan coba satu²'%(N,K,N)
-                    print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat Via UA Random%s)'%(N,H,N,O,N,H,N)
-                    print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal Via UA Opera%s)'%(N,H,N,O,N,K,N)
+                    print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat Via UA Opera Mini%s)'%(N,H,N,O,N,H,N)
+                    print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal Via UA IE%s)'%(N,H,N,O,N,K,N)
                     print ' %s[%s3%s] Metode %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
                     __yan__(pwek.split(','))
                     break
@@ -663,8 +663,8 @@ class __crack__:
         elif ___yayanganteng___ in ('T', 't'):
             print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Metode Intip Anda. Silahkan coba satu²'%(N,K,N)
-            print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat Via UA Random%s)'%(N,H,N,O,N,H,N)
-            print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal Via UA Opera%s)'%(N,H,N,O,N,K,N)
+            print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat Via UA Opera Mini%s)'%(N,H,N,O,N,H,N)
+            print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal Via UA IE%s)'%(N,H,N,O,N,K,N)
             print ' %s[%s3%s] Metode %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
             self.__pler__()
         else:
@@ -797,7 +797,7 @@ class __crack__:
             print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
-            print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
             print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -847,7 +847,7 @@ class __crack__:
             print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
-            print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
             print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -897,7 +897,7 @@ class __crack__:
             print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
             print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
             print ' %s=================================================='%(N)
-            print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+            print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
             print ' %s=================================================='%(N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
                 for yntks in self.id: # Yo Ndak Tau Kok Tanya Saia

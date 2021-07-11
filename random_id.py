@@ -139,7 +139,7 @@ def moch_yayan():
     print ' %s[%s*%s] Facebook  : %sfacebook.com/JbFbOld'%(N,H,N,K)
     print ' %s[%s*%s] Whatsapp  : %s081318306972'%(N,H,N,K)
     print ' %s[%s*%s] Nama SC   : %sRoy Multi Brute Facebook'%(N,H,N,K)
-    print ' %s[%s*%s] Versi SC  : %sV1.2'%(N,H,N,K)
+    print ' %s[%s*%s] Versi SC  : %sV1.3'%(N,H,N,K)
     print ' %s=================================================='%(N)
     print ' %s[%s*%s] Nama FB : %s%s%s'%(N,H,N,K,nama,N)
     print ' %s[%s*%s] ID FB   : %s%s%s'%(N,H,N,K,idfb,N)
@@ -228,7 +228,7 @@ def crack_random():
     	print ' %s[%s*%s] Facebook  : %sfacebook.com/JbFbOld'%(N,H,N,K)
     	print ' %s[%s*%s] Whatsapp  : %s081318306972'%(N,H,N,K)
     	print ' %s[%s*%s] Nama SC   : %sRoy Multi Brute Facebook'%(N,H,N,K)
-    	print ' %s[%s*%s] Versi SC  : %sV1.2'%(N,H,N,K)
+    	print ' %s[%s*%s] Versi SC  : %sV1.3'%(N,H,N,K)
     	print ' %s=================================================='%(N)
 	print ' %s[%s!%s] Ketik %smenu %sjika ingin kembali ke %sMENU UTAMA%s'%(N,M,N,H,N,H,N)
 	print ' %s=================================================='%(N)
@@ -822,7 +822,7 @@ def crack_random():
 	print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
 	print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
 	print ' %s=================================================='%(N)
-	print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+	print ' [%s!%s] %sMatikan data selular untuk menjeda proses &\n Merefresh Cache IP Address agar Stabil'%(M,N,M)
 	print ' %s==================================================\n'%(N)
 	
 	def main(user):
@@ -903,7 +903,7 @@ def manual():
 	print ' [%s✓%s] Hasil %sOK%s ke : %sresults/OK-%s-%s-%s.txt%s' % (H,N,H,N,K,ha, op, ta,N)
 	print ' [%s✓%s] Hasil %sCP%s ke : %sresults/CP-%s-%s-%s.txt%s' % (K,N,K,N,K,ha, op, ta,N)
 	print ' %s=================================================='%(N)
-	print ' [%s!%s] %sMatikan data selular untuk menjeda proses'%(M,N,M)
+	print ' [%s!%s] %sMatikan data selular untuk menjeda proses&\n Merefresh Cache IP Address agar Stabil'%(M,N,M)
 	print ' %s==================================================\n'%(N)
 	
 	def main(user):

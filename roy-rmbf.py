@@ -654,18 +654,18 @@ class __crack__:
                             moch_yayan()
                     print ' %s=================================================='%(N)
                     print ' %s[%s?%s] Pilih Metode Intip Anda. Silahkan coba satu²'%(N,K,N)
-                    print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat Via UA Opera Mini%s)'%(N,H,N,O,N,H,N)
-                    print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal Via UA IE%s)'%(N,H,N,O,N,K,N)
-                    print ' %s[%s3%s] Metode %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
+                    print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,H,N)
+                    print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal%s)'%(N,H,N,O,N,K,N)
+                    print ' %s[%s3%s] Metode %smobile %s(%sProses Lama%s)'%(N,H,N,O,N,M,N)
                     __yan__(pwek.split(','))
                     break
 
         elif ___yayanganteng___ in ('T', 't'):
             print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Metode Intip Anda. Silahkan coba satu²'%(N,K,N)
-            print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat Via UA Opera Mini%s)'%(N,H,N,O,N,H,N)
-            print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal Via UA IE%s)'%(N,H,N,O,N,K,N)
-            print ' %s[%s3%s] Metode %smobile %s(%sProses Lama Via UA Chrome%s)'%(N,H,N,O,N,M,N)
+            print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,H,N)
+            print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal%s)'%(N,H,N,O,N,K,N)
+            print ' %s[%s3%s] Metode %smobile %s(%sProses Lama%s)'%(N,H,N,O,N,M,N)
             self.__pler__()
         else:
             print '\n %s[%sx%s] y/t !'%(N,M,N)

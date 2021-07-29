@@ -9,9 +9,9 @@ Presentase s7i TAP YES 70%
 2. Crack dari Teman Publik
 3. Crack dari Total Follower
 4. Crack dari Like Postingan
-Method b-api (Prose Capet Via UA Random)
-Method mbasic (Proses Normal Via UA Opera Mini)
-Method mobile (Proses Lama Via UA Chrome)
+Method b-api (Prose Capet)
+Method mbasic (Proses Normal)
+Method mobile (Proses Lama)
 ````
 # Fitur Baru Multi Crack
 ````php

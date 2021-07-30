@@ -628,33 +628,33 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             	raimuuu = [
-                        		xz[0]+'xd', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
+                        		xz[0]+'tampan', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0]+'xd', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'xd', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
+                        		xz[0]+'tampan', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'tampan', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0]+'xd', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'xd', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'xd', xz[2]+'cantik', xz[2]+'123', xz[2]+'12345',
+                        		xz[0]+'tampan', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'tampan', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'tampan', xz[2]+'cantik', xz[2]+'123', xz[2]+'12345',
                         	]
                         elif len(xz) == 4:
                         	raimuuu = [
-                        		xz[0]+'xd', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'xd', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'xd', xz[2]+'cantik', xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'xd', xz[3]+'cantik', xz[3]+'123', xz[3]+'12345',
+                        		xz[0]+'tampan', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'tampan', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'tampan', xz[2]+'cantik', xz[2]+'123', xz[2]+'12345',
+                        		xz[3]+'tampan', xz[3]+'cantik', xz[3]+'123', xz[3]+'12345',
                         	]
                         elif len(xz) == 5:
                         	raimuuu = [
-                        		xz[0]+'xd', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'xd', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'xd', xz[2]+'cantik', xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'xd', xz[3]+'cantik', xz[3]+'123', xz[3]+'12345',
-                        		xz[4]+'xd', xz[4]+'cantik', xz[4]+'123', xz[4]+'12345',
+                        		xz[0]+'tampan', xz[0]+'cantik', xz[0]+'123', xz[0]+'12345',
+                        		xz[1]+'tampan', xz[1]+'cantik', xz[1]+'123', xz[1]+'12345',
+                        		xz[2]+'tampan', xz[2]+'cantik', xz[2]+'123', xz[2]+'12345',
+                        		xz[3]+'tampan', xz[3]+'cantik', xz[3]+'123', xz[3]+'12345',
+                        		xz[4]+'tampan', xz[4]+'cantik', xz[4]+'123', xz[4]+'12345',
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:

@@ -886,7 +886,7 @@ def crack_random():
 	print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
 	lagi = raw_input('\n %s[%s*%s] ke Menu Multi Intip Lagi? Y/t : %s'%(N,O,N,H))
 	if lagi in ('Y', 'y'):
-		crack_random()
+		os.system("python2 roy-rmbf2.py")
 	elif lagi in ('T', 't'):
 		os.system("python2 roy-rmbf.py")
 	else:
@@ -961,7 +961,7 @@ def manual():
 	print '\n %s[%s✓%s] Proses Intip by ROY Selesai...'%(N,K,N)
 	lagi = raw_input('\n %s[%s*%s] ke Menu Multi Intip Lagi? Y/t : %s'%(N,O,N,H))
 	if lagi in ('Y', 'y'):
-		crack_random()
+		os.system("python2 roy-rmbf2.py")
 	elif lagi in ('T', 't'):
 		os.system("python2 roy-rmbf.py")
 	else:

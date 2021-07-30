@@ -166,7 +166,7 @@ def moch_yayan():
     print ' [%s2%s] Intip dari Teman Publik'%(K,N)
     print ' [%s3%s] Intip dari Total Followers'%(K,N)
     print ' [%s4%s] %sMULAI INTIP%s'%(K,N,H,N)
-    print ' [%s5%s] Cek Hasil Intip Point 1-4'%(K,N)
+    print ' [%s5%s] Cek Hasil Intip Point 1-3'%(K,N)
     print ' [%s6%s] Fitur Cek Informasi Akun FB'%(K,N)
     print ' [%s7%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
     print ' [%s8%s] Info SC ROY-RMBF'%(K,N)

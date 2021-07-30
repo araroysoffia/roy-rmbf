@@ -165,12 +165,11 @@ def moch_yayan():
     print ' %s[%s1%s] Intip dari Daftar Teman'%(N,K,N)
     print ' [%s2%s] Intip dari Teman Publik'%(K,N)
     print ' [%s3%s] Intip dari Total Followers'%(K,N)
-    print ' [%s4%s] Intip dari Like Postingan'%(K,N)
-    print ' [%s5%s] %sMULAI INTIP%s'%(K,N,H,N)
-    print ' [%s6%s] Cek Hasil Intip Point 1-4'%(K,N)
-    print ' [%s7%s] Fitur Cek Informasi Akun FB'%(K,N)
-    print ' [%s8%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
-    print ' [%s9%s] Info SC ROY-RMBF'%(K,N)
+    print ' [%s4%s] %sMULAI INTIP%s'%(K,N,H,N)
+    print ' [%s5%s] Cek Hasil Intip Point 1-4'%(K,N)
+    print ' [%s6%s] Fitur Cek Informasi Akun FB'%(K,N)
+    print ' [%s7%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
+    print ' [%s8%s] Info SC ROY-RMBF'%(K,N)
     print ' %s[%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
@@ -184,10 +183,8 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
         elif yan =='3':
                 followers()
         elif yan =='4':
-                postingan()
-        elif yan =='5':
                 __crack__().slurr()
-        elif yan =='6':
+        elif yan =='5':
             print("\n \033[0;97m[\x1b[1;92m1\033[0;97m] Cek hasil \x1b[1;92mOK\x1b[0m")
             print(" \033[0;97m[\x1b[1;93m2\033[0;97m] Cek hasil \x1b[1;93mCP\x1b[0m")
             ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Pilih : ")
@@ -220,12 +217,12 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
                     moch_yayan()
             else:
                 moch_yayan()
-        elif yan =='7':
+        elif yan =='6':
         	jalan('\n NOTE! Ketik %suser%s jika anda ingin mendapatkan ID dari username'%(H,N));time.sleep(0.07)
         	cek_ingfo()
-        elif yan =='8':
+        elif yan =='7':
             	os.system("python2 random_id.py")
-        elif yan =='9':
+        elif yan =='8':
         	info_tools()
         elif yan =='0':
             	print '\n'
@@ -371,46 +368,6 @@ def followers():
         moch_yayan()
     except (KeyError,IOError):
     	os.remove(ah)
-    	jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan ID tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N))
-        moch_yayan()
-# dump id dari postingan hehe
-def postingan():
-    try:
-        __cindy__= open('__yayan__.txt', 'r').read()
-    except IOError:
-        print '\n %s[%sx%s] Token Invalid'%(N,M,N)
-        os.system('rm -rf __yayan__.txt')
-        time.sleep(0.01)
-        yayanxd()
-    try:
-        os.mkdir('dump')
-    except:pass
-    try:
-        csy = raw_input('\n [%s?%s] ID Posting : '%(K,N))
-        ppk = raw_input(' [%s?%s] Nama File  : '%(K,N))
-        asw = raw_input(' [%s?%s] Total ID   : '%(K,N))
-        kon = requests.get('https://graph.facebook.com/%s/likes?limit=%s&access_token=%s'%(csy,asw,__cindy__))
-        id = []
-        x = json.loads(kon.text)
-        ikeh = ('dump/' + ppk + '.json').replace(' ', '_')
-        ys = open(ikeh, 'w')
-        for a in x['data']:
-            id.append(a['id'] + '<=>' + a['name'])
-            ys.write(a['id'] + '<=>' + a['name'] + '\n')
-            w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            print '\r' + w +' [*] Menghitung Total Dump ID : %s ' % str(len(id)),
-            sys.stdout.flush()
-            time.sleep(0.0050)
-
-        ys.close()
-        jalan('\n\n %s[%s✓%s] Berhasil dump ID dari like postingan'%(N,H,N))
-        print ' [%s✓%s] Salin/Copy File : ( %s%s%s )'%(H,N,M,ikeh,N)
-        print 50 * '='
-        raw_input(' [%s ENTER%s ] '%(O,N))
-        moch_yayan()
-    except (KeyError,IOError):
-    	os.remove(ikeh)
     	jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan ID tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N))
         moch_yayan()

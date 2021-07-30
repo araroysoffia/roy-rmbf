@@ -216,9 +216,9 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
                     moch_yayan()
             else:
                 moch_yayan()
-        elif yan =='7':
+        elif yan =='6':
             	os.system("python2 random_id.py")
-        elif yan =='8':
+        elif yan =='7':
         	info_tools()
         elif yan =='0':
             	print '\n'

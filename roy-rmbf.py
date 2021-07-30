@@ -167,9 +167,8 @@ def moch_yayan():
     print ' [%s3%s] Intip dari Total Followers'%(K,N)
     print ' [%s4%s] %sMULAI INTIP%s'%(K,N,H,N)
     print ' [%s5%s] Cek Hasil Intip Point 1-3'%(K,N)
-    print ' [%s6%s] Fitur Cek Informasi Akun FB'%(K,N)
-    print ' [%s7%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
-    print ' [%s8%s] Info SC ROY-RMBF'%(K,N)
+    print ' [%s6%s] Multi Intip dari Teman Publik (%sNew%s)'%(K,N,H,N)
+    print ' [%s7%s] Info SC ROY-RMBF'%(K,N)
     print ' %s[%s0%s] Logout (%sGanti/Hapus Token FB%s)'%(N,M,N,M,N)
     awokawokawokawokawokawokawokawokawokawokawokawok()
 def awokawokawokawokawokawokawokawokawokawokawokawok():
@@ -217,9 +216,6 @@ def awokawokawokawokawokawokawokawokawokawokawokawok():
                     moch_yayan()
             else:
                 moch_yayan()
-        elif yan =='6':
-        	jalan('\n NOTE! Ketik %suser%s jika anda ingin mendapatkan ID dari username'%(H,N));time.sleep(0.07)
-        	cek_ingfo()
         elif yan =='7':
             	os.system("python2 random_id.py")
         elif yan =='8':
@@ -371,137 +367,6 @@ def followers():
     	jalan('\n %s[%s!%s] Gagal dump ID, kemungkinan ID tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N))
         moch_yayan()
-# cek info
-def cek_ingfo():
-    try:
-        __cindy__= open('__yayan__.txt', 'r').read()
-    except (KeyError, IOError):
-        print '\n %s[%s!%s] Token/Cookies Invalid'%(P,M,P)
-        os.system('rm -rf __yayan__.txt')
-        time.sleep(0.01)
-        yayanxd()
-    try:
-        ppk = raw_input('\n [%s?%s] Masukkan ID FB : '%(K,N))
-        if ppk in ('user', 'User', 'USER'):
-        	jalan('\n [%s!%s] Anda akan di arahkan ke browser!'%(M,N));time.sleep(2)
-        	os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
-        	cek_ingfo()
-        aww = requests.get('https://graph.facebook.com/%s?access_token=%s'%(ppk, __cindy__))
-        x = json.loads(aww.text)
-        nmaa = x['name']
-    except (KeyError, IOError):
-    	nmaa = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	ndpn = x['first_name']
-    except (KeyError, IOError):
-    	ndpn = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	nmbl = x['last_name']
-    except (KeyError, IOError):
-    	nmbl = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	user = x['username']
-    except (KeyError, IOError):
-    	user = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	ttll = x['birthday']
-    except (KeyError, IOError):
-    	ttll = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	gndr = x['gender']
-    except (KeyError, IOError):
-    	gndr = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	tzim = x['timezone']
-    except (KeyError, IOError):
-    	tzim = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	stas = x['relationship_status']
-    except (KeyError, IOError):
-    	stas = '%sJones%s'%(M,N)
-    except: pass
-    try:
-    	dgn = '''dengan %s'''%(x['significant_other']['name'])
-    except (KeyError, IOError):
-    	dgn = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	tigl = x['location']['name']
-    except (KeyError, IOError):
-    	tigl = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	dari = x['hometown']['name']
-    except (KeyError, IOError):
-    	dari = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	lins = x['link']
-    except (KeyError, IOError):
-    	lins = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	uptd = x['updated_time']
-    except (KeyError, IOError):
-    	uptd = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	nmrr = x['mobile_phone']
-    except (KeyError, IOError):
-    	nmrr = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	emai = x['email']
-    except (KeyError, IOError):
-    	emai = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	bioo = x['about']
-    except (KeyError, IOError):
-    	bioo = '%s-%s'%(M,N)
-    except: pass
-    try:
-    	r = requests.get('https://graph.facebook.com/%s/friends?limit=50000&access_token=%s'%(ppk, __cindy__))
-        z = json.loads(r.text)
-        for i in z['data']:
-        	id.append(i['id'])
-    except: pass
-    try:
-    	r = requests.get('https://graph.facebook.com/%s/subscribers?access_token=%s'%(ppk, __cindy__))
-        z = json.loads(r.text)
-        pengikut = z['summary']['total_count']
-    except (KeyError, IOError):
-    	pengikut = '%s-%s'%(M,N)
-    except: pass
-    print '\n  * Informasi Akun Facebook *';time.sleep(0.03)
-    print '\n [*] Nama Lengkap : %s'%(nmaa);time.sleep(0.03)
-    print ' [*] Nama Depan   : %s'%(ndpn);time.sleep(0.03)
-    print ' [*] Nama Belakang : %s'%(nmbl);time.sleep(0.03)
-    print ' [*] Username FB  : %s'%(user);time.sleep(0.03)
-    print '\n  * Data-data akun facebook *\n';time.sleep(0.03)
-    print ' [*] Gmail Facebook : %s'%(emai);time.sleep(0.03)
-    print ' [*] Nomor Telepon  : %s'%(nmrr);time.sleep(0.03)
-    print ' [*] Tanggal Lahir  : %s'%(ttll);time.sleep(0.03)
-    print ' [*] Kenis Kelamin  : %s'%(gndr);time.sleep(0.03)
-    print ' [*] Jumlah Teman  : %s'%str(len(id));time.sleep(0.03)
-    print ' [*] Total Followers : %s'%(pengikut);time.sleep(0.03)
-    print ' [*] Link Facebook  : %s'%(lins);time.sleep(0.03)
-    print ' [*] Status Hubungan : %s %s'%(stas,dgn);time.sleep(0.03)
-    print ' [*] Tentang Status : %s'%(bioo);time.sleep(0.03)
-    print ' [*] Kota Asal      : %s'%(dari);time.sleep(0.03)
-    print ' [*] Tinggal di     :‰ %s'%(tigl);time.sleep(0.03)
-    print ' [*] Zona waktu     : %s'%(tzim);time.sleep(0.03)
-    print ' [*] Terakhir FB di update : %s'%(uptd);time.sleep(0.03)
-    print ' %s[%s#%s]'%(N,O,N), 50 * '\x1b[1;96m=\x1b[0m'
-    jalan('\n [%s✓%s] Berhasil mengechek data akun Facebook\n\n'%(O,N));time.sleep(0.03)
-    exit()
 # cek info sc
 def info_tools():
     os.system('clear')

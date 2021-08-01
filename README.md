@@ -1,14 +1,13 @@
 # Metode Login Termux
 ````php
 Token FB (Akun Tumbal Awet)
-Presentase s7i TAP YES 70%
+Presentase s7i TAP YES 50%
 ````
 # Metode Crack
 ````php
 1. Crack dari Daftar Teman
 2. Crack dari Teman Publik
 3. Crack dari Total Follower
-4. Crack dari Like Postingan
 Method b-api (Prose Capet)
 Method mbasic (Proses Normal)
 Method mobile (Proses Lama)
@@ -21,7 +20,6 @@ Method mbasic (Sandi Manual)
 ````
 # Sandi Otomoatis
 ````php
-nama
 nama123
 nama12345
 ````

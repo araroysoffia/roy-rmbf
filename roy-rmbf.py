@@ -523,8 +523,8 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r %sID: %s|%s %s     %s' % (K,user,pw,tt,N)
-                wrt = ' [✓] %s|%s %s' % (user,pw,tt)
+                print '\r %sID: %s|%s|%s     %s' % (K,user,pw,tt,N)
+                wrt = ' [✓] %s|%s|%s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -560,8 +560,8 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r %sID: %s|%s %s     %s' % (K,user,pw,tt,N)
-                wrt = ' [✓] %s|%s %s' % (user,pw,tt)
+                print '\r %sID: %s|%s|%s     %s' % (K,user,pw,tt,N)
+                wrt = ' [✓] %s|%s|%s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break
@@ -600,8 +600,8 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r %sID: %s|%s %s     %s' % (K,user,pw,tt,N)
-                wrt = ' [✓] %s|%s %s' % (user,pw,tt)
+                print '\r %sID: %s|%s|%s     %s' % (K,user,pw,tt,N)
+                wrt = ' [✓] %s|%s|%s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                 break

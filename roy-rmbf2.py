@@ -36,6 +36,7 @@ ha = current.day
 op = bulan[nTemp]
 reload(sys)
 sys.setdefaultencoding('utf-8')
+bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 ### WARNA RANDOM ###
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH 
@@ -813,8 +814,8 @@ def crack_random():
 			
 	print '\n %s[%s*%s] Total ID : %s%s%s' %(N,H,N,M,str(len(id)),N);time.sleep(2)
 	print ' %s[%s?%s] Pilih Metode Intip & Metode Sandi Anda.'%(N,K,N)
-	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis Proses Cepat%s)'%(N,H,N,O,N,H,N)
-        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual Proses Normal%s)'%(N,H,N,O,N,K,N)
+	print ' %s[%sT%s] Metode %sb-api %s(%sSandi Otomatis UA XpressMusic%s)'%(N,H,N,O,N,H,N)
+        print ' %s[%sY%s] Metode %smbasic %s(%sSandi Manual UA XpressMusic%s)'%(N,H,N,O,N,K,N)
 	ask = raw_input(' [%s?%s] Ingin menggunakan Metode [%sY%s/%sT%s]: '%(K,N,H,N,M,N))
 	if ask == "Y" or ask == "y":
 		manual()  

